@@ -1,0 +1,6 @@
+.lextableleft {padding:10px;float:left;width:50%;border-right:1px solid black}
+.lextableright {float:right;width:50%;border-left:5px solid white;vertical-align:top}
+.lexcell1  { float:left;width:75%}
+.lexcell2  {float:left;margin-left:20px}
+.lexcell3  {float:right;padding-right:5px}
+.lexcell4  {float:left}
