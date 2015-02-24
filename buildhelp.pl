@@ -4,11 +4,17 @@ use File::Temp qw(tempfile);
 use Encode;
 use utf8;
 my $homeDir  = ".";
+my $markdown = "markdown";
 #
 # The docs directory has the markdown files that are used mkdocs to generate the website
 # Any css files used by the .md must be copied to help directory before building; they
 # are not need later
 #
+
+# To test
+#  assistant -collectionFile lanedocs.qhc
+# (Amiri font will not be available unless installed.)
+
 my $docsDir = "docs";
 my $helpDir = "help";
 my @help = (
@@ -41,7 +47,7 @@ foreach my $h (@help) {
 #  print "$infile\n";
   my $outfile = File::Spec->catfile(@{[$homeDir,$helpDir]},$h->{output});
   if (-e $infile) {
-     my $cmd = "markdown $infile";
+     my $cmd = "$markdown $infile";
     my $html = `$cmd`;
 #     print decode("UTF8",$html);
     open(OUT,">:encoding(UTF8)",$outfile);
