@@ -34,6 +34,7 @@
              <keyword  id="lanex" ref="preface.html#x"/>
 	     <keyword name="entry settings" id="idEntrySettings" ref="user-guide/configuring.html#entrysettings"/>
 	     <keyword name="grammatical terms" id="idGrammaticalTerms" ref="preface.html#grammaticalterms"/>
+             <keyword name="Search" id="idSearchConfiguration" ref="user-guide/configuring.html#findsettings"/>
          </keywords>
          <files>
            <file>tables.css</file>

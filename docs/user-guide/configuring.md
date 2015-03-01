@@ -8,5 +8,55 @@ this is the config guide
 
         Options to do with this screen:
 
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
+<p>line</p>
 
-
+#####Search configuration<a name="findsettings"></a>
