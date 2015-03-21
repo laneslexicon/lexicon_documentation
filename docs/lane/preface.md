@@ -259,7 +259,7 @@ I.—*Table of the Conjugations of Arabic Verbs*
 
 
 #####xxix
-<a name="grammaticalterms"><a/>
+<a name="grammaticalterms"></a>
 II.—*Table of the Lexicological and Grammatical Terms &c. used in the following work.*
 
 <table class="grammarterms">
