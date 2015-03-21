@@ -4,3 +4,11 @@
 .lexcell2  {float:left;margin-left:20px}
 .lexcell3  {float:right;padding-right:5px}
 .lexcell4  {float:left}
+
+.chronotable { font-size: 80%;width:100%}
+
+.fr {float:right}
+.pl {padding-left:10px;border-left: 1px solid;padding-bottom:3px}
+.pr {padding-right:5px;padding-bottom:3px}
+.indent {padding-left:20px;padding-bottom:3px}
+.bl { border-left : 1px solid}

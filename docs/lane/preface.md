@@ -509,150 +509,578 @@ Verbal noun, اِسْمُ فِعْلٍ
 
 III.—*Chronological list of the more celebrated of the Lexicologists and Grammarians cited in the following work, extracted from the 48th Section of the Muzhir: with some additions, which are marked with an asterisk.*
 
+
+
+<br/>
 <div>
-<table class="lextableleft">
-  <tr>
-    <td>
-      <span class="lexcell1">*Ibn-'Abbás: died in the year of the Flight</span>
-      <span class="lexcell3">68</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">*Mujáhid: said to have lived 83 years;and</span>
-      <br/>
-      <span class="lexcell2">to have died in</span>
-      <span class="lexcell3">100 or 101 or 102 or 100</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">*Ḳatádeh: born in 60: died in</span>
-      <span class="lexcell2"></span>
-      <span class="lexcell3">117 or 118</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">Aboo-'Amr Ibn-El-'Alà: (*born at Mekkeh,</span>
-      <br/>
-      <span class="lexcell2"> in the year of the Flight 70 or 68 or<br/> 65:) died in</span>
-      <span class="lexcell3"><br/>151 (*or 154) or 159</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">El-Khaleel: lived to the age of 74</span>
-      <span class="lexcell3">160 or 170 or 175</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">*El-Leyth Ibn-Naṣr Ibn-Seiyár El-Khurá-</span>
-      <br/>
-      <span class="lexcell2">sánee: contemporary with, and com-<br/>panion of,El-Khaleel.</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">Yoonus: born in the year 90</span>
-      <span class="lexcell3">182 *or 183</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">*Abu-d-Duḳeyah: contemporary with Yoonus.</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">El-Kisá-ee</span>
-      <span class="lexcell3">182 or 183 or 189 or 192</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">Seebaweyh: lived 32 years,or 40 and odd</span>
-      <br/>
-      <span class="lexcell2">years: died in</span>
-      <span class="lexcell3">161 (*or 177) or 180 or 188 or 194</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">Aboo-Muḥammad El-Yezeedee: lived 74</span>
-      <br/>
-      <span class="lexcell2">years: died in</span>
-      <span class="lexcell3">202</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">En-Naḍr Ibn-Shumeyl: died in </span>
-      <span class="lexcell3">203 or 204</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">Ḳuṭrub</span>
-      <span class="lexcell3">206</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">El-Farrà: lived 67 years</span>
-      <span class="lexcell3">207</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">Aboo-'Obeydeh (*Maṣmar Ibn-El-Muthennà</span>
-      <br/>
-      <span class="lexcell2">(Et-Teymee): born in 112: died in</span>
-      <span class="lexcell3">208 or 209 or 210 or 211</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">*Aboo-'Amr Eah-Sheybánee: lived 100 (*or</span>
-      <br/>
-      <span class="lexcell2">111) or 118 hears: died in</span>
-      <span class="lexcell3">205 or 206 or 213</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell1">Aboo-Zeyd(*El-Anṣáree:) lived 93 years</span>
-      <br/>
-      <span class="lexcell2">died in</span>
-      <span class="lexcell3">214 or 215 or 216</span>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <span class="lexcell4">El-Aṣma'ee: born in 123 (*or 122):</span>
-      <br/>
-      <span class="lexcell2">died in</span>
-      <span class="lexcell3">(*214 or)215 or 216 *or 217</span>
-    </td>
-  </tr>
-</table>
+	<table class="chronotable">
+	  <colgroup>
+		  <col span="1" style="width:50%;vertical-align:top;border-right:1px solid black;padding-right:3px"></col>
+		  <col span="1" style="width:50%;text-align:top"></col>
+	  </colgroup>
 
 
-<table class="lextableright">
-  <tr>
-    <td>
-      <span class="lexcell1">Aboo-Bekr Ibn-El-Ambáree: born in 271:</span>
-      <br/>
-      <span class="lexcell2">died in</span>
-      <span class="lexcell3">(*327 or) 328</span>
-    </td>
-  </tr>
+<tr>
+  <td class="pr">
+  <span>*Ibn-'Abbás: died in the year of the Flight</span>
+	  <span class="fr">68</span>
+	  </td>
+	  <td class="pl">
+	  Aboo-Bekr Ibn-El-Ambáree: born in 271:
+	  </td>
+	</tr>
+
+<tr>
+<td class="pr">
+*Mujáhid: said to have lived 83 years;and
+</td>
+<td class="bl">
+	<span class="indent">died in</span><span class="fr">(*327 or) 328</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+to have died in
+<span class="fr">100 or 101 or 102 or 100</span>
+</td>
+<td class="pl">
+Ez-Zejjájee <span class="fr">(*337 or) 339 or 340</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Ḳatádeh: born in 60: died in
+<span class="fr">117 or 118</span>
+</td>
+<td class="pl">
+*El-Fárábee<span class="fr">343</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aboo-'Amr Ibn-El-'Alà: (*born at Mekkeh,
+</td>
+<td class="pl">
+Ibn-Durustaweyh: born in 258: died in <span class="fr">347</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+in the year of the Flight 70 or 68 or
+</td>
+<td class="pl">
+Ibn-El-Ḳooṭeeyeh<span class="fr">367</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+68:) died in <span class="fr">151 (*or 154) or 159</span>
+</td>
+<td class="pl">
+Es-Seeráfee: born before the year 270: died in<span class="fr">368</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+El-Khaleel: lived to the age of 74 <span class="fr">160 or 170 or 175</span>
+</td>
+<td class="pl">
+Ibn-Khálaweyh <span class="fr">370</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*El-Leyth Ibn-Naṣr Ibn-Seiyár El-Khurá-
+</td>
+<td class="pl">
+El-Azheree (author of the "Tahdheeb"):
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+sánee: contemporary with, and com-
+</td>
+<td class="indent">
+	*born in 282: died in <span class="fr">(*370 or) 371</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+panion of, El-Khaleel
+</td>
+<td class="pl">
+Aboo-'Alee El-Fárisee: (*lived more than 90
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Yoonus: born in the year 90 <span class="fr">182 *or 183</span>
+</td>
+<td class="indent">
+	years:) died in <span class="fr">(*376 or) 377</span>
+</td>
+</tr>
+<tr>
+<td class="pr">
+*Abu-d-Duḳeyah: contemporary with Yoonus.
+</td>
+<td class="pl">
+Aboo-Bekr Es-Zubeydee (author of an abridg-
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+  El-Kisá-ee <span class="fr">182 or 183 or 189 or 192</span>
+</td>
+<td class="indent">
+  ment of the "'Eyn" <span class="fr">379</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Seebaweyh: lived 32 years,or 40 and odd
+</td>
+<td class="pl">
+*Ibn-'Abbád (the Ṣáḥib, author of the "Mo-
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+years: died in
+<span class="fr">161 (*or 177) or 180 or 188 or 194</span>
+</td>
+<td class="indent">
+ḥeeṭ"): born in 330: died in <span class="fr">385</span>
+</td>
+</tr>
+
+
+<tr>
+<td class="pr">
+Aboo-Muḥammad El-Yezeedee: lived 74
+</td>
+<td class="pl">
+*El-Khaṭṭábee <span class="fr">388</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+years: died in <span class="fr">202</span>
+</td>
+<td class="pl">
+Ibn-Jinnee (*Abu-l-Fet-ḥ 'Othmán): born
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+ En-Naḍr Ibn-Shumeyl: died in <span class="fr">203 or 204</span>
+</td>
+<td class="indent">
+before the year 330: died in <span class="fr">392</span>
+</td>
+</tr>
+
+
+<tr>
+<td class="pr">
+   Ḳuṭrub  <span class="fr">206</span>
+</td>
+<td class="pl">
+Ibn-Fáris  <span class="fr">(*390 or) 395</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+El-Farrà: lived 67 years <span class="fr">207</span>
+</td>
+<td class="pl">
+El-Jowharee (author of the "Ṣiḥáḥ") <span class="fr">*393 or 397 or 398</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aboo-'Obeydeh (*Maṣmar Ibn-El-Muthennà
+</td>
+<td class="pl">
+El-Harawee (author of the "Ghareebeyn") <span class="fr">401</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+   Et-Teymee): born in 112: died in  <span class="fr">208 or 209 or 210 or 211</span>
+</td>
+<td class="pl">
+*Moḥammad Ibn-Jaạfar El-Ḳazzáz <span class="fr">412</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Aboo-'Amr Eah-Sheybánee: lived 110 (*or
+</td>
+<td class="pl">
+El-JawáleeḲee <span class="fr">425</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+111) or 118 years: died in <span class="fr">(*214 or) 215 or 216 or 217</span>
+</td>
+<td class="pl">
+*Ibn-Et-Teiynáee (author of the "Moo'ab") <span class="fr">436</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aboo-Zeyd(*El-Anṣáree:) lived 93 years died in
+      <span class="fr">214 or 215 or 216</span>
+</td>
+<td class="pl">
+Ibn-Seedeh (*author of the "Moḥkam")
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+El-Aṣma'ee: born in 123 (*or 122): died in
+      <span class="fr">(*214 or)215 or 216 *or 217</span>
+</td>
+<td class="indent">
+    lived about 60 years: died in <span class="fr">458</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*El-Liḥyánee: contemporary with El-Kisá-ee
+</td>
+<td class="pl">
+El-Khaṭeeb Et-Tebreezee: born in 421: died in <span class="fr">502</span>
+</td>
+</tr>
+
+
+<tr>
+<td class="indent pr">
+and Aboo-'Obeydeh and Aboo-Zeyd and
+</td>
+<td class="pl">
+*Er-Rághib El-Iṣfahánee: died in the early
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+El-Aṣma'ee
+</td>
+<td class="indent">
+part of century five.
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aub-l-Ḥasan El-Akhfash <span class="fr">210 or 215 or 221</span>
+</td>
+<td class="pl">
+Ibn-El-Ḳaṭṭáạ: born in 433: died in <span class="fr">515</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Abu-l-Ḥeythem: a preceptor of Aboo-'Obeyd.
+</td>
+<td class="pl">
+*El-Meydánee: died in <span class="fr">518</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Ibn-Buzurj: contemporary with Abu-l-Ḥeythem.
+</td>
+<td class="pl">
+Ibn-Es-Seed El-Baṭalyowsee: born in 444:
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aboo-'Obeyd: lived 67 years: died in <span class="fr">223 or 224 or 230</span>
+</td>
+<td class="indent">
+died in <span class="fr">521</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Ibn-El-Aạrábee: born in 150: died in <span class="fr">231 or 233</span>
+</td>
+<td class="pl">
+Es-Zamakhsheree (*author of the "'Asás" and
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Shemir: contemporary with Ibn-El-Aạrábee.
+</td>
+<td class="indent">
+"Keshsháf," &amp;c): born in 467: died in <span class="fr">538</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Ibn-Es-Sikkeet (*Yaạḳoob) <span class="fr">244</span>
+</td>
+<td class="pl">
+*Es--Suheylee (author of the "Rowḍ") <span class="fr">581</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Aboo-Ḥátim Es-Sijistánee: lived nearly 90
+</td>
+<td class="pl">
+Ibn-Barree (*author of the "Annotations on the
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+years: died in <span class="fr">248 or 250 or 254 or 255</span>
+</td>
+<td class="indent">
+Ṣiḥáḥ") <span class="fr">582</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Es-Sukkaree (author of an "Exposition of"
+</td>
+<td class="pl">
+*Ibn-El-Atheer El-Jeseree, (Mejd-ed-Deen,
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+the Deewán El-Hudhaleeyeen"): born
+</td>
+<td class="indent">
+author of the "Niháyeh") <span class="fr">606</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+in 212: died in <span class="fr">270 or 275</span>
+</td>
+<td class="pl">
+*El-Fakhr Er-Rázee <span class="fr">606</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Ibn-Ḳuteybeh: &#x5b; also called El-Ḳutabee, and
+</td>
+<td class="pl">
+*El-Muṭarrizee (author othe the "Mughrib"):
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+by some, (among whom is the author of
+</td>
+<td class="indent bl">
+born in 536: died in <span class="fr">610</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+the Táj-el-'Aroos,) less properly, El-
+</td>
+<td class="pl">
+Eṣ-Ṣaghánee (*or Eṣ-Ṣághánee, author of the
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+Ḳuteybee: (See the Biogr. Dictionary of En-
+</td>
+<td class="indent bl">
+"'Obáb" and of the "Tekmileh fi-ṣ-
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+Nawawee, p.771:)&#x5d; born in 213: died in <span class="fr">267 *or 270 or 271 or 276</span>
+</td>
+<td class="indent bl">
+Ṣiḥáḥ"): born in 577: died in <span class="fr">660</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Aboo-Ḥaneefeh Ed-Deenawaree (author of
+</td>
+<td class="pl">
+Er-Raḍee Esh-Sháṭibee: born in 601: died in <span class="fr">684</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+The "Bool of Plants" <span class="fr">282</span>
+</td>
+<td class="pl">
+*El-Beyḍáwee <span class="fr">685 or 690 or 691</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+El-Mubarrad: born in 210: died in <span class="fr">282 or 285 *or 286</span>
+</td>
+<td class="pl">
+El-Jemál Ibn-Málik: born in 600: died in <span class="fr">692</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Thaạlab (*Abu-l-'Abbás Aḥmad Ibn-Yaḥyà,
+</td>
+<td class="pl">
+*Ibn-Mularram (author of the "Lisán
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+author of the "Faṣeeḥ"): born in 200:
+</td>
+<td class="indent">
+el-'Arab"): born in 630 died in <span class="fr">711</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+died in <span class="fr">291</span>
+</td>
+<td class="pl">
+*El-Feiyoomee (author of the "Miṣbáh,"
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+Kuráṣ <span class="fr">cir. 310</span>
+</td>
+<td class="indent">
+which he finished in 734).
+</td>
+</tr>
+<tr>
+<td class="pr">
+Es-Zejjáj (*Aboo-Is-ḥáḳ) <span class="fr">311</span>
+</td>
+<td class="pl">
+Aboo-Ḥeiyán: born in 654: died in <span class="fr">745</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Ibn-Dureyd (author of the "Jemharsh"):
+</td>
+<td class="pr">
+*Ibn-Hishám (author of the "Mughnee")
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+born in 223, or [about five years later,
+</td>
+<td class="indent">
+born in 708: died in <span class="fr">761 or 762</span>
+</td>
+</tr>
+
+<tr>
+<td class="indent">
+for] it is said that he lived 93 years, not
+</td>
+<td class="pl">
+El-Feyroozábádee (author of the "Ḳámoos"
+</td>
+</tr>
+
+
+<tr>
+<td class="indent pr">
+more, and died in <span class="fr">321</span>
+</td>
+<td class="indent">
+*and the "Baṣáir"): born in 729: died in <span class="fr">816</span>
+</td>
+</tr>
+
+<tr>
+<td class="pr">
+*Ibraheem Ibn-Moḥammad Ibn-'Arafeh (Nif-
+</td>
+<td class="pl">
+*The seyyid Murtaḍà Ez-Zebeedee (author of
+</td>
+</tr>
+
+<tr>
+<td class="indent pr">
+ṭaweyh): born in 244 or 250: died in <span class="fr">323</span>
+</td>
+<td class="indent">
+The "Táj el-Aroos"): died in <span class="fr">1205</span>
+</td>
+</tr>
+
 </table>
 
 </div>
 <div style="clear:both">&nbsp;</div>
-<br/>
 
 
 #####xxxi
