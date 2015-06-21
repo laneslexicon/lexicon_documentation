@@ -18,8 +18,10 @@ use FileHandle;
 my $infile;
 my $outfile;
 my $safemode=0;
+my $testmode=0;
 my $remove=0;
 my $siteRoot="";
+my $verbose=0;
 my $arClass="arabic";
 my @sitefiles;
 binmode STDERR, ":encoding(UTF-8)";
@@ -43,6 +45,9 @@ sub arabic {
   return 0;
 }
 #
+# read the entire file and pass it to scanText
+#
+#
 sub add_markup {
   my $fileName = shift;
   my $outf = shift;
@@ -58,10 +63,14 @@ sub add_markup {
 
     $text .= $_;
   }
+  if ($verbose) {
+    print STDERR "Processing $fileName ";
+  }
   my $out = scanText($text);
   print $fh  $out;
   close IN;
   close $fh;
+  print STDERR "\n" if $verbose;
 }
 sub remove_markup {
   my $fileName = shift;
@@ -112,14 +121,15 @@ sub processSite {
 }
 sub scanText {
   my $text = shift;
-  # find skip_start and skip_end positions
-  # and jump over them
   my $arabicStart;
   my $arabicEnd;
   my $pos = -1;
   my @skipStarts;
   my @skipLength;
   my $skipIndex = 0;
+  my $spansAdded = 0;
+  # find skip_start and skip_end positions
+  # so we can jump over them
   while (($pos = index($text,"skip_start",$pos)) > -1) {
     push @skipStarts,$pos;
     $pos++;
@@ -161,11 +171,20 @@ sub scanText {
         if (
             (ord($c) < 0x600) ||
             (ord($c) > 0x6ff)
-            #           ($c =~ /\p{IsSpace}|\p{IsPunct}/)
            ) {
           $arabicEnd = $i - 1;
         }
       }
+      # move back to last Arabic character so we don't include trailing
+      # punctuation
+      for (my $j=$arabicEnd;$j > $arabicStart;$j--) {
+        $c = substr $text , $j, 1;
+        if (( ord($c) >= 0x600) && (ord($c) <= 0x6ff)) {
+          $arabicEnd = $j;
+          $j = -1;
+        }
+      }
+#      print sprintf "[%s]\n", substr $text,$arabicStart,$arabicEnd - $arabicStart;
       # from arabic start read back to ensure
       # we don't have <span class="xxx"> immediately preceding it
       my $x = substr $text,0,$arabicStart - 1;
@@ -175,36 +194,42 @@ sub scanText {
         $out .= "<span class=\"arabic\">";
         $out .= substr $text, $arabicStart,$arabicEnd - $arabicStart;
         $out .= "</span>";
+        $spansAdded++;
         #    print sprintf "%d %d\n",$arabicStart,$arabicEnd;
         #    print sprintf "%04x %d\n",ord($c),ord($c) . "\n";
         #    print substr $text , $arabicStart, $arabicEnd - $arabicEnd;
       }
-      $i--;
+      $i = $arabicEnd;
     } else {
       $out .= $c;
     }
   }
-  #  print $out . "\n";
+  print STDERR "added $spansAdded <span>" if $verbose;
   return $out;
-}
-if (0) {
-  my $text = "one two وَ أَنتَ fuck off";
-  scanText($text);
-  $text = "one two <span class=\"ar\"> وَ أَنتَ </span>fuck off";
-  scanText($text);
-  $text = "one skip_start two وَ أَنتَ fuck skip_end off";
-
-  scanText($text);
-
-  exit 0;
 }
 GetOptions("in=s" => \$infile,
            "out=s" => \$outfile,
            "clean" => \$remove,
            "site=s" => \$siteRoot,
            "class=s" => \$arClass,
+           "test" => \$testmode,
+           "verbose" => \$verbose,
            "safe" => \$safemode);
 
+if ($testmode) {
+  my $text = "one two وَ أَنتَ (this is for your: fuck off)";
+  print scanText($text);
+  print "\n";
+  $text = "one two <span class=\"ar\"> وَ أَنتَ </span>fuck off";
+  print scanText($text);
+  print "\n";
+  $text = "one skip_start two وَ أَنتَ fuck skip_end off";
+
+  print scanText($text);
+  print "\n";
+
+  exit 0;
+}
 
 if ($siteRoot) {
   my @d;
