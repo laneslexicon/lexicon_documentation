@@ -1,9 +1,0 @@
-.grammarterms tr td { vertical-align : top ; padding : 5px ; width : 33% }
-.grammarterms tr td.col2 { border-left : 1px solid black ;border-right : 1px solid black }
-@font-face {
-  font-family: 'ArabicFont';
-  src: url('../fonts/amiri-regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-       url('../fonts/amiri-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-.ar { font-family : 'ArabicFont'; }
-

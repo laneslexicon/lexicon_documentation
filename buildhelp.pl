@@ -21,7 +21,7 @@ my @help = (
             {
             source => "lane/preface.md",
             output => "preface.html",
-            css => "tables.css"
+            css => "tables.css,mansur.css"
             },
             {
             source => "user-guide/using.md",
