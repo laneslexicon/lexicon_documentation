@@ -215,7 +215,7 @@ In respect of the places which I have assigned to arabicized words, I have gener
 
 When several significations are assigned to one word &c., connected by "or," it is often the case that one is right in one instance, and another in another; and not unfrequently, that all are correct in different instances.
 
-Whenever I have found it possible to do so, I have distinguished (by the mark ‡) what is affirmed to be tropical from what is proper; generally on the authority of the Asás. I have also generally distinguished (by the mark †) what I regard as evidently, or probably, tropical, when I have found no express authority for asserting such to be the case. Thus I have often been enabled to draw clearly what me termed the "genealogies" of significations. Always, in the arrangement of significations, I have, to the utmost of my ability, paid attention to their relations, one to another. The mark — is used to denote a break in the relations of significations &c.; and <CHECK> denotes an extraordinary, or a complete, dissociation.
+Whenever I have found it possible to do so, I have distinguished (by the mark ‡) what is affirmed to be tropical from what is proper; generally on the authority of the Asás. I have also generally distinguished (by the mark †) what I regard as evidently, or probably, tropical, when I have found no express authority for asserting such to be the case. Thus I have often been enabled to draw clearly what may be termed the "genealogies" of significations. Always, in the arrangement of significations, I have, to the utmost of my ability, paid attention to their relations, one to another. The mark — is used to denote a break in the relations of significations &c.; and <CHECK> denotes an extraordinary, or a complete, dissociation.
 
 Numerous words in the Ṣiḥáḥ and the Ḳámoos and most other Arabic lexicons are merely said to be the names of certain plants and animals. Of these I have generally found and given explanations which have either enabled me to determine the particular species to which they apply or may enabled others to do so, and which will show that the application of many of these words have been changed in post-classical times. For the names and descriptions of plants, my chief authority is Aboo-Ḥaneefeh Ed-Deenawaree, who is generally held to have adhered to the original nomenclature more accurately than any other writer on the Arabian flora, enabled to do so in many cases by his own careful investigations, and by consulting Arabs of the desert, at a sufficiently early period, i the third century of the Flight. I have been induced to mention the properties commonly attributed by the Arabs to plants and drugs &c., though they are generally fanciful, because they sometimes help to point out what is meany by an explanation otherwise vague, and sometimes elucidate far-fetched comparisons or allusions.
 
@@ -258,6 +258,65 @@ The following tables will, I believe, supply all further explanations that will 
 I.—*Table of the Conjugations of Arabic Verbs*
 
 
+<div>
+<table style="font-size:75%">
+<tr>
+<td class="pb"><span dir=ltr>1.</span></td><td>(1st variety) <span dir=rtl>فَعَلَ </span><span dir=ltr>,</span><span dir=rtl> يَفْعُلُ</span><span dir=ltr>:(2nd) </span><span dir=rtl>فَعَلَ</span><span dir=ltr>,</span><span dir=rtl>يَفْعِلُ</span><span dir=ltr> : (3rd) </span><span dir=rtl>فَعَلَ</span><span dir=ltr> , </span><span dir=rtl>يَفْعَلُ</span><span dir=ltr> : (4th)  </span><span dir=rtl>فَعِلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعَلُ</span><span dir=ltr>: (5th) </span><span dir=rtl>فَعُلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعُلُ</span><span dir=ltr>: (6th) </span><span dir=rtl>فَعِلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعِلُ</span><span dir=ltr>.</span></td>
+</tr>
+<tr>
+<td class="pb"><span dir=ltr>2. </span></td><td><span dir=rtl>فعَّلَ</span><span dir=ltr>: variations </span><span dir=rtl>فَعَّى</span><span dir=ltr> (for </span><span dir=rtl>فَعَّصَ</span><span dir=ltr>) and the like.</span></td>
+</tr>
+
+<tr>
+<td class="pb"><span dir=ltr>3. </span></td><td><span dir=rtl>فَاعَلَ</span><span dir=ltr>.</span></td>
+</tr>
+
+<td><span dir=ltr>4. </span></td><td><span dir=rtl>أَفْعَلَ</span><span dir=ltr>.</span></td>
+</tr>
+
+<tr>
+<td class="pb"><span dir=ltr>5. </span></td><td><span dir=rtl>تَفَعَّلَ</span><span dir=ltr>: variations </span><span dir=rtl> اِفَّعَّلَ</span><span dir=ltr>, in the cases of verbs of which the </span>
+<span dir=rtl>ف</span><span dir=ltr> is </span><span dir=rtl>ت</span><span dir=ltr>, </span><span dir=rtl> ث</span><span dir=ltr>, </span><span dir=rtl>ج</span><span dir=ltr>, </span><span dir=rtl>د</span><span dir=ltr>, </span><span dir=rtl>ذ</span><span dir=ltr>, </span><span dir=rtl>ز</span><span dir=ltr>, </span><span dir=rtl>س</span><span dir=ltr>, </span><span dir=rtl>ش</span><span dir=ltr>, </span><span dir=rtl>ص</span><span dir=ltr>, </span><span dir=rtl>ض</span><span dir=ltr>, </span><span dir=rtl>ط</span><span dir=ltr>, </span><span dir=rtl>ظ</span><span dir=ltr>: also </span><span dir=rtl>تَظَنَّى</span><span dir=ltr> (for </span><span dir=rtl>تَظَنَّنَ</span><span dir=ltr>) and the like:</span></td>
+</tr>
+<tr>
+<td class="pb">&nbsp;</td>
+<td style="padding-left:20px">
+<span dir=rtl>تَفَعَّلُ</span><span dir=ltr>&nbsp;&nbsp;&amp;c. (for </span><span dir=rtl>تَتََفَعَّلُ</span><span dir=ltr> &amp;c.)</span>
+
+</td>
+</tr>
+
+<tr>
+<td class="pb"><span dir=ltr>6. </span><td><span dir=rtl>تَفَاعَلَ</span><span dir=ltr>: variations </span><span dir=rtl>اِفَّاعَلَ</span><span dir=ltr>, in cases like those in which </span><span dir=rtl>تَفَعَّلَ</span><span dir=ltr> sometimes becomes </span><span dir=rtl>اِفَّعَّلَ</span><span dir=ltr>: also </span><span dir=rtl>تَفَاعَلُ</span><span dir=ltr> &amp;c. (for </span><span dir=rtl>تَتَفَاعَلُ</span><span dir=ltr>)</span></td>
+</tr>
+<tr>
+<td class="pb"><span dir=ltr style="width: 150px">7. </span></td><td><span dir=rtl>اِنْفَعَلَ</span><span dir=ltr>: variations </span><span dir=rtl>اِنَّصَرَ</span><span dir=ltr> (for </span><span dir=rtl>اِنْفَصَرَ</span><span dir=ltr>) and the like; and </span><span dir=rtl>اِمَّلَسَ</span><span dir=ltr> (for </span><span dir=rtl>اِنْمَلسَ</span><span dir=ltr>) and the like.</span></td>
+</tr>
+<tr>
+<td class="pb">8.</td>
+<td><span dir=rtl>اِفْتَعَلَ</span><span dir=ltr>:  variations </span><span dir=rtl>فَعَّلَ</span><span dir=ltr>, </span><span dir=rtl>فِعَّلَ</span><span dir=ltr>,</span><span dir=rtl>فِعِّلَ</span><span dir=ltr>, or </span><span dir=rtl>فَعِّلَ</span><span dir=ltr>, in the case of verbs of which the </span><span dir=rtl>ع</span><span dir=ltr> is </span><span dir=rtl>ت</span><span dir=ltr>, </span><span dir=rtl>ث</span><span dir=ltr>, </span><span dir=rtl>ج</span><span dir=ltr>, </span><span dir=rtl>د</span><span dir=ltr>, </span><span dir=rtl>ذ</span><span dir=ltr>, </span><span dir=rtl>ز</span><span dir=ltr>, </span><span dir=rtl>س</span><span dir=ltr>, </span><span dir=rtl>ش</span><span dir=ltr>, </span><span dir=rtl>ص</span><span dir=ltr>, </span><span dir=rtl>ض</span><span dir=ltr>, </span><span dir=rtl>ط</span><span dir=ltr>, or </span><span dir=rtl>ظ</span><span dir=ltr>: also such as </span><span dir=rtl>اِتَّبَعَ</span></td>
+
+</tr>
+<tr>
+
+<td class="pb">9. </td><td><span dir=ltr> </span><span dir=rtl>اِفْعَلَّ</span><span dir=ltr>: variations </span><span dir=rtl>اِفْعَلَلَ</span><span dir=ltr>, in the case of a verb of which the </span><span dir=rtl>ل</span><span dir=ltr> is unsound; as </span><span dir=rtl>اِرْعَوَى</span><span dir=ltr>: and </span><span dir=rtl>اِفْعَلَلَّ</span><span dir=ltr>; as </span><span dir=rtl>اِبْيَضَضَّ</span><span dir=ltr>.</span></td>
+</tr>
+
+<tr>
+<td class="pb"><span dir=ltr>10. </span></td><td><span dir=rtl>اِسْتَفْعَلَ</span><span dir=ltr>: variations </span><span dir=rtl>اِسْْطَاعَ</span><span dir=ltr> and </span><span dir=rtl>اِسْتَاعَ</span><span dir=ltr> (for </span><span dir=rtl>اِسْتَطَاعَ</span><span dir=ltr>).</span></td>
+</tr>
+
+<td class="pb"><span dir=ltr>11. </span></td><td><span dir=rtl>اِفْعَالَّ</span><span dir=ltr>. variation </span><span dir=rtl>اِفْعَالَلَ</span><span dir=ltr>, in the case of a verb of which the </span><span dir=rtl>ل</span><span dir=ltr> is unsound: as </span><span dir=rtl>اِحْوَاوَى</span><span dir=ltr>.</span></td>
+</tr>
+<tr>
+<td class="pb"><span dir=ltr>12. </span></td><td><span dir=rtl>اِفْعَوْعَلَ</span><span dir=ltr>.</span></td>
+</tr>
+<tr>
+<td class="pb"><span dir=ltr>13. </span></td><td><span dir=rtl>اِفْعَوَّلَ</span><span dir=ltr>.</span></td>
+</tr>
+</table>
+
+</div>
 #####xxix
 <a name="grammaticalterms"></a>
 II.—*Table of the Lexicological and Grammatical Terms &c. used in the following work.*
@@ -1088,7 +1147,7 @@ The "Táj el-Aroos"): died in <span class="fr">1205</span>
 
 IV.—*Indications of Authorities*
 
-From all these authorities I have drawn throught the medium of the Táj el-'Aroos or the Lisán el-'Arab, except those distinguished by the mark ‡, which denotes those whence I have always drawn immediately: from many of them I have also drawn through the medium of some other lexicon than those two above named: and from those distinguished by the mark † I have often, or generally, drawn immediately. What is meant by an asterisk placed after any indication of an authority in my lexicon has been explained in page xxvi.
+From all these authorities I have drawn through the medium of the Táj el-'Aroos or the Lisán el-'Arab, except those distinguished by the mark ‡, which denotes those whence I have always drawn immediately: from many of them I have also drawn through the medium of some other lexicon than those two above named: and from those distinguished by the mark † I have often, or generally, drawn immediately. What is meant by an asterisk placed after any indication of an authority in my lexicon has been explained in page xxvi.
 
 
 <table>
