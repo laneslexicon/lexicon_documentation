@@ -1,16 +1,23 @@
-site_name: Lanes Lexicon
+site_name: Lanes Arabic-English Lexicon
 pages:
-- ['index.md', Welcome]
-- ['user-guide/using.md', User Guide, 'Introduction']
-- ['user-guide/configuring.md', User Guide, 'Configuration']
-- ['user-guide/bookmarks.md', User Guide, 'Bookmarks']
-- ['user-guide/search.md', User Guide, 'Searching']
-- ['user-guide/custom.md', User Guide, 'Customization']
-- ['dev-guide/build.md', Development, 'Building']
-- ['lane/preface.md','Lane','Preface']
-- ['lane/notice.md','Lane','Notice']
-- ['lane/postscript.md','Lane','Postscript to the Preface']
-- ['download.md', Download]
-- ['build.md', 'Building', 'Building']
-- ['about/license.md', 'About', 'License']
+- Welcome: 'index.md'
+- User Guide:
+  - 'Introduction': 'user-guide/using.md'
+  - 'Configuration' : 'user-guide/configuring.md'
+  - 'Bookmarks' : 'user-guide/bookmarks.md'
+  - 'Searching' : 'user-guide/search.md'
+  - 'Customization' : 'user-guide/custom.md'
+  - 'Obtaining' : 'download.md'
+- Technical Guide:
+  - 'Building' : 'dev-guide/build.md'
+- About:
+  - 'License' : 'about/license.md'
+- Lanes Preface:
+  - 'Preface' : 'lane/preface.md'
+  - 'Notice'  : 'lane/notice.md'
+  - 'Postscript to the Preface': 'lane/postscript.md'
+
+
+
+
 theme: readthedocs
