@@ -1,22 +1,48 @@
-site_name: Lanes Arabic-English Lexicon
+site_name: Lane's Arabic-English Lexicon
 pages:
 - Welcome: 'index.md'
-- User Guide:
-  - 'Introduction': 'user-guide/using.md'
-  - 'Configuration' : 'user-guide/configuring.md'
-  - 'Bookmarks' : 'user-guide/bookmarks.md'
-  - 'Searching' : 'user-guide/search.md'
-  - 'Customization' : 'user-guide/custom.md'
-  - 'Obtaining' : 'download.md'
+- Introduction:
+  - 'Background'  : 'introduction/intro.md'
+  - 'Quick start' : 'introduction/start.md'
+- 'User Guide':
+  - Moving around : user-guide/moving.md
+  - Searching : 'user-guide/search.md'
+  - Bookmarks : 'user-guide/bookmarks.md'
+  - Notes : 'user-guide/notes.md'
+  - Cross references : 'user-guide/links.md'
+  - Reporting errors : 'user-guide/errors.md'
+  - Some differences : 'user-guide/diffs.md'
+- Customization :
+  - Themes : 'custom/themes.md'
+  - 'The Application' : 'custom/application.md'
+  - 'The Contents'    : 'custom/contents.md'
+  - Using Edit View   : 'custom/editview.md'
+  - Changing Arabic font : 'custom/font.md'
+  - Shorcuts          : 'custom/shortcuts.md'
+- Options :
+  - Introduction : 'options/options.md'
+  - 'System' : 'options/system.md'
+  - Contents :  options/contents.md
+  - 'Printer' : 'options/printer.md'
+  - Diacritics : options/diacritics.md
+  - Shortcuts  : options/shortcuts.md
+  - Entry      : options/entry.md
+  - Search      : options/search.md
+  - Bookmarks      : options/bookmarks.md
+  - Logging     : options/logging.md
+  - History     : options/history.md
+  - Icons       : options/icons.md
+- 'Obtaining' : 'download.md'
 - Technical Guide:
   - 'Building' : 'dev-guide/build.md'
 - About:
   - 'License' : 'about/license.md'
-- Lanes Preface:
+  - 'Acknowledgments' : 'about/acknowledgements.md'
+- Lane's Preface:
   - 'Preface' : 'lane/preface.md'
   - 'Notice'  : 'lane/notice.md'
   - 'Postscript to the Preface': 'lane/postscript.md'
-
+- '' : 404.md
 
 
 

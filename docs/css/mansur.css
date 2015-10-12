@@ -1,7 +1,7 @@
 /*
 @import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
 */
-.arabic { font-family : Droid Arabic Naskh }
+.arabic { font-family : Amiri }
 .ar { font-family : "Droid Arabic Naskh" }
 #artest { font-family : "Droid Arabic Naskh" }
 .pre {
@@ -60,3 +60,27 @@ bdo[dir='ltr'], bdo[dir='rtl'] {
        url('../fonts/amiri-regular.ttf') format('truetype');
 }
 */
+
+code { font-family : Fira Mono; font-size : 14px ;background-color : wheat}
+.directory { font-family : Fira Mono; font-size : 14px ;background-color : lightgray}
+#xx {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+    list-style: disc outside none;
+    padding: 10px 10px 10px 25px;
+}
+
+#resourceslayout {
+    border-collapse : separate;
+    padding : 0px;
+    font-size : 12px;
+    cell-padding : 0px ;
+    border: 1px solid black;
+    cell-spacing : 0px;
+}
+table#resourceslayout td { padding : 5px }
+table#resourceslayout td.directorypad  { background-color : white }
+
+
+.section { font-family : Fira Sans; font-size : 14px }
