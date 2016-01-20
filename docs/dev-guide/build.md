@@ -16,7 +16,7 @@ The description that follows assumes that these sub-projects are organised as su
         |--- xml
         |--- parser
         |--- gui
-
+        |--- documentation
 
 #### Requirements
 
@@ -26,6 +26,11 @@ The description that follows assumes that these sub-projects are organised as su
 + LibXSLT
 + mkDocs
 
+##### Debian based systems (e.g. Linux Mint,Ubuntu)
+
+```sh
+sudo apt-get install libxml2-dev libxslt1-dev
+```
 
 
 #### Building the database

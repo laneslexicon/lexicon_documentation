@@ -5,25 +5,29 @@ pages:
   - 'Background'  : 'introduction/intro.md'
   - 'Quick start' : 'introduction/start.md'
 - 'User Guide':
-  - Moving around : user-guide/moving.md
+  - Contents and entry : user-guide/moving.md
+  - Tabs     : user-guide/tabs.md
   - Searching : 'user-guide/search.md'
+  - Entering Arabic text : user-guide/entering.md
   - Bookmarks : 'user-guide/bookmarks.md'
+  - Saving state : 'user-guide/tabsets.md'
   - Notes : 'user-guide/notes.md'
-  - Cross references : 'user-guide/links.md'
-  - Reporting errors : 'user-guide/errors.md'
+  - Cross references : 'user-guide/missinglinks.md'
   - Some differences : 'user-guide/diffs.md'
 - Customization :
+  - Introduction : custom/custom.md
   - Themes : 'custom/themes.md'
-  - 'The Application' : 'custom/application.md'
-  - 'The Contents'    : 'custom/contents.md'
+  - Changing fonts : 'custom/font.md'
+#  - The Application : 'custom/application.md'o
+#  - Lexicon entries    : 'custom/contents.md'
   - Using Edit View   : 'custom/editview.md'
-  - Changing Arabic font : 'custom/font.md'
-  - Shorcuts          : 'custom/shortcuts.md'
+#  - Shortcuts          : 'custom/shortcuts.md'
+#  - Keymaps            : 'custom/keymaps.md'
 - Options :
   - Introduction : 'options/options.md'
-  - 'System' : 'options/system.md'
+  - System : 'options/system.md'
   - Contents :  options/contents.md
-  - 'Printer' : 'options/printer.md'
+  - Printer : 'options/printer.md'
   - Diacritics : options/diacritics.md
   - Shortcuts  : options/shortcuts.md
   - Entry      : options/entry.md
@@ -32,9 +36,18 @@ pages:
   - Logging     : options/logging.md
   - History     : options/history.md
   - Icons       : options/icons.md
-- 'Obtaining' : 'download.md'
+- Other :
+  - Editing the text : 'other/editing.md'
+  - Word order      : 'other/orths.md'
+  - Reporting errors : 'user-guide/errors.md'
+  - The CSS structure of an entry : other/entrycss.md
+  - The XML structure of an entry : other/entryxml.md
+  - Obtaining : 'download.md'
 - Technical Guide:
   - 'Building' : 'dev-guide/build.md'
+  - 'Virtual keyboards' : 'dev-guide/vkeyboard.md'
+  - Setting up a keymap : dev-guide/keymaps.md
+  - Scripts : dev-guide/scripts.md
 - About:
   - 'License' : 'about/license.md'
   - 'Acknowledgments' : 'about/acknowledgements.md'
@@ -43,6 +56,12 @@ pages:
   - 'Notice'  : 'lane/notice.md'
   - 'Postscript to the Preface': 'lane/postscript.md'
 - '' : 404.md
+- Appendix:
+  - Buckwalter transliteration : 'other/buckwalter.md'
+  - Buckwalter keymap : appendix/buckwalterkeymap.md
+  - Windows 101 text specification : appendix/windows101_text.md
+  - Windows 101 INI specification : appendix/windows101_ini.md
+
 
 
 
