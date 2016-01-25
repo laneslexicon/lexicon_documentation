@@ -24,10 +24,14 @@ my $siteRoot="";
 my $verbose=0;
 my $arClass="arabic";
 my @sitefiles;
+my @skip = qw(windows101_ini/index.html
+              windows101_text/index.html);
+
+
 binmode STDERR, ":encoding(UTF-8)";
 binmode STDOUT, ":encoding(UTF-8)";
 ###########################################################
-# can be used with document to add <span class="ar"></span
+# can be used with document to add <span class="arabic"></span
 # around arabic text
 ##########################################################
 ##########################
@@ -52,6 +56,13 @@ sub add_markup {
   my $fileName = shift;
   my $outf = shift;
   my $fh;
+
+  foreach my $p (@skip) {
+    if ($fileName =~ /$p/) {
+      print STDERR "Skipping $fileName\n" if $verbose;
+      return;
+    }
+  }
   open(IN,"<:encoding(UTF8)",$fileName) or die "No file $fileName";
   if (! $outf ) {
     open $fh, '>&:encoding(UTF8)', STDOUT or die "Error opening STDOUT: $!";
@@ -85,14 +96,14 @@ sub remove_markup {
   my $txt;
   my $pos;
   my $rec;
-  my $spanLength = length "<span class=\"ar\">";
+  my $spanLength = length "<span class=\"arabic\">";
   my $matchCount;
   while (<IN>) {
     $rec = $_;
     $txt = "";
     $matchCount = 0;
     $pos = 0;
-    while (/<span class="ar">([^<]+)<\/span>/g) {
+    while (/<span class="arabic">([^<]+)<\/span>/g) {
       #      print sprintf "\n\n\nMatch at %d, length %d\n",length $PREMATCH,length $MATCH;
       $txt .= substr $rec,$pos,length($PREMATCH) - $pos;
       #      print "[$pos][$txt]\n";
@@ -130,6 +141,7 @@ sub scanText {
   my $spansAdded = 0;
   # find skip_start and skip_end positions
   # so we can jump over them
+  print STDERR "Doing: scanText(\"$text\")\n" if $verbose;
   while (($pos = index($text,"skip_start",$pos)) > -1) {
     push @skipStarts,$pos;
     $pos++;
@@ -188,7 +200,9 @@ sub scanText {
       # from arabic start read back to ensure
       # we don't have <span class="xxx"> immediately preceding it
       my $x = substr $text,0,$arabicStart - 1;
-      if ($x =~ /<span\s*[^>]*>\s*$/) {
+#      if ($x =~ /<span\s*[^>]*>\s*$/) {
+      if ($x =~ /<span\s*class="arabic">/) {
+#      if (0) {
         $out .= substr $text, $arabicStart,$arabicEnd - $arabicStart;
       } else {
         $out .= "<span class=\"arabic\">";
@@ -204,7 +218,7 @@ sub scanText {
       $out .= $c;
     }
   }
-  print STDERR "added $spansAdded <span>" if $verbose;
+  print STDERR "\nadded $spansAdded span tags\n" if $verbose;
   return $out;
 }
 GetOptions("in=s" => \$infile,
@@ -217,13 +231,17 @@ GetOptions("in=s" => \$infile,
            "safe" => \$safemode);
 
 if ($testmode) {
-  my $text = "one two وَ أَنتَ (this is for your: fuck off)";
+  my $text = "one two وَ أَنتَ (this is for you)";
   print scanText($text);
   print "\n";
-  $text = "one two <span class=\"ar\"> وَ أَنتَ </span>fuck off";
+  $text = "one two <span class=\"arabic\"> وَ أَنتَ </span> oh well";
   print scanText($text);
   print "\n";
-  $text = "one skip_start two وَ أَنتَ fuck skip_end off";
+
+  $text = "one two <span dir=\"rtl\"> وَ أَنتَ </span> oh wellf";
+  print scanText($text);
+  print "\n";
+  $text = "one skip_start two وَ أَنتَ what the skip_end heck";
 
   print scanText($text);
   print "\n";

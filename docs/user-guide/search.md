@@ -29,6 +29,7 @@ When searching the entire Lexicon for an Arabic word, the results are presented 
 
 The "Context" column shows the found text in its text context. To view the full entry with the search result hightlighted either double-click the row or, with the row selected, hit the spacebar or return key. From the result dialog, below, it is possible to print or open the result as a new tab. Any number of these dialogs can be open at once.
 
+<a name="nodeview"></a>
 ![Node View](/images/searchnodeinfo.png)
 
 ### Head word search
@@ -74,7 +75,7 @@ For a normal search the entered pattern is treated as literal text.
 
 ######Ignore diacritics
 
-When checked any diacritics will be ignored. What counts as a diacritic can be set [here.](../options/diacritics.md)
+When checked any diacritics will be ignored. What counts as a diacritic can be set [here.](../options/options_diacritics.md)
 
 The default diacritics are:<span class="arabiclarge">
 &#x064b;&nbsp;&nbsp;&nbsp;&nbsp;

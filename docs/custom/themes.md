@@ -60,7 +60,7 @@ The Resources  directory contains the following layout:
     <tr>
         <td colspan="3" class="directorypad"></td>
         <td class="themedirectory">xlst</td>
-        <td>XSLT fileso</td>
+        <td>XSLT files</td>
     </tr>
     <tr>
         <td colspan="3" class="directorypad"></td>

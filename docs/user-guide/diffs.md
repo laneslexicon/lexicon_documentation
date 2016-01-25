@@ -24,7 +24,7 @@ Supplement colour
 #### Head entries - multi-word heads
 <a name="headword"></a>
 
-Many entries, such as the one below, contain not a single head word but a head phrase. The software attempts to identify a single headword for each entry and, by default, shows this in the contents panel. The *Head search* dialog also targets this single headword by default. This behaviour can changed by setting the relevant option [here](../options/contents.md#headphrase) or [here](../options/entry.md#headphrase).
+Many entries, such as the one below, contain not a single head word but a head phrase. The software attempts to identify a single headword for each entry and, by default, shows this in the contents panel. The *Head search* dialog also targets this single headword by default. This behaviour can changed by setting the relevant option [here](../options/options_contents.md#headphrase) or [here](../options/options_entry.md#headphrase).
 
 ![Head phrase](/images/headphrase.png)
 

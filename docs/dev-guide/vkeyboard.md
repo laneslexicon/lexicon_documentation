@@ -1,8 +1,6 @@
 
 
-Virtual keyboard configuration files are stored at a location specified in the configuration file for the current theme. (Key: Resources/Keyboard). The default location is the sub-directory "keyboards" of the current theme.
-
-Within that directory a mandatory configuration file *keyboard.ini*, specifies the default keyboard layout. The remaining .INI files each describe a particular keyboard layout.
+A virtual keyboard is defined by a configuration file (<keyboard name>.ini) located in the "keyboards" subdirectory of the current theme. Within that directory a mandatory configuration file *keyboard.ini*, specifies the default keyboard layout. The remaining .INI files each describe a particular keyboard layout.
 
 keyboard.ini
 

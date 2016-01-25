@@ -1,5 +1,5 @@
 
-When the program finishes, the tabs that are open at the time will be saved and reopened the next time it is run.
+When the program finishes, the tabs that are open at the time will be saved and opened the next time it is run.
 
 "Tabsets" provide a means of saving and restoring more than one set tabs.
 
@@ -17,10 +17,12 @@ To save your current set of tabs you should provide a title and select which tab
 
 Use the load dialog to restore saved pages:
 
+<a name="tabsetlist"></a>
 ![Load Tabset Dialog](/images/loadtabs.png)
 
 
-An entire tabset or parts of a tabset, or multiple tabsets can be reloaded by using the 'Open all' checkbox and/or using the 'Select tabs' button,
+
+An entire tabset or parts of a tabset, or multiple tabsets can be reloaded by using the 'Open all' checkbox and/or using the 'Select tabs' button to show the dialog listing the tabs contained in the tabset.
 
 #### Edit
 

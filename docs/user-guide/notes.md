@@ -6,11 +6,13 @@ The note editor provides basic functionality such as copy/paste and also the ent
 
 Once saved the presence of a note is indicated by a small folder icon to the right of the entry, as in the example below:
 
-![Note Dialog with help](/images/notewithhelp.svg)
+![Note Dialog with help](/images/notewithhelp.png)
 
 
 Click on the folder icon to view and edit the note. If clicking on the folder icon does not open the note editor, click on its associated entry first and then on the icon usually works.
 
 To view a complete list of notes, use Menu -> Tools -> View notes or use the shortcut (default Ctrl+N,S).
+
+<a name="notebrowser"></a>
 
 From  the list of notes it is possible to delete or edit a note, view the entry associated with the note or load the parent root in a new tab.

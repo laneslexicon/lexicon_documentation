@@ -5,6 +5,7 @@ pages:
   - 'Background'  : 'introduction/intro.md'
   - 'Quick start' : 'introduction/start.md'
 - 'User Guide':
+  - Docking : user-guide/docking.md
   - Contents and entry : user-guide/moving.md
   - Tabs     : user-guide/tabs.md
   - Searching : 'user-guide/search.md'
@@ -18,31 +19,33 @@ pages:
   - Introduction : custom/custom.md
   - Themes : 'custom/themes.md'
   - Changing fonts : 'custom/font.md'
-#  - The Application : 'custom/application.md'o
-#  - Lexicon entries    : 'custom/contents.md'
   - Using Edit View   : 'custom/editview.md'
 #  - Shortcuts          : 'custom/shortcuts.md'
 #  - Keymaps            : 'custom/keymaps.md'
 - Options :
-  - Introduction : 'options/options.md'
-  - System : 'options/system.md'
-  - Contents :  options/contents.md
-  - Printer : 'options/printer.md'
-  - Diacritics : options/diacritics.md
-  - Shortcuts  : options/shortcuts.md
-  - Entry      : options/entry.md
-  - Search      : options/search.md
-  - Bookmarks      : options/bookmarks.md
-  - Logging     : options/logging.md
-  - History     : options/history.md
-  - Icons       : options/icons.md
+  - Introduction : 'options/options_intro.md'
+  - System : 'options/options_system.md'
+  - Contents :  options/options_contents.md
+  - Printer : 'options/options_printer.md'
+  - Diacritics : options/options_diacritics.md
+  - Shortcuts  : options/options_shortcuts.md
+  - Entry      : options/options_entry.md
+  - Search      : options/options_search.md
+  - Bookmarks      : options/options_bookmarks.md
+  - Logging     : options/options_logging.md
+  - History     : options/options_history.md
+  - Icons       : options/options_icons.md
+  - Arabic CSS  : options/options_spanned.md
 - Other :
   - Editing the text : 'other/editing.md'
   - Word order      : 'other/orths.md'
   - Reporting errors : 'user-guide/errors.md'
   - The CSS structure of an entry : other/entrycss.md
   - The XML structure of an entry : other/entryxml.md
-  - Obtaining : 'download.md'
+  - Updating the Lexicon : other/dbupdate.md
+- Sharing : sharing.md
+- Obtaining : obtaining.md
+- Contact : contact.md
 - Technical Guide:
   - 'Building' : 'dev-guide/build.md'
   - 'Virtual keyboards' : 'dev-guide/vkeyboard.md'

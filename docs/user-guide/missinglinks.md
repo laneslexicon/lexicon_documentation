@@ -1,7 +1,4 @@
-## Editing the text
-
-
-## Cross references
+### Cross references
 
 
 Lane indicated cross-references in the text with a down-arrow, as explained in the Preface page xxiv :
@@ -13,7 +10,7 @@ As in the following example:
 ![Cross foreign](/images/foreign_orth.png)
 
 
-In this application,  the cross-references have been converted to clickable links. However, not all links have been resolved by software: links with an identified target are blue, unresolved links are red.
+In this application,  the cross-references have been converted to clickable links. However, not all links have been resolved by the software: links with an identified target are blue, unresolved links are red.
 
 [There are 36,031 cross-references in the entire lexicon, of which 21,322 have been resolved.]
 
@@ -22,7 +19,7 @@ In this application,  the cross-references have been converted to clickable link
 
 The user can repair a broken link manually by doing the following:
 
-+ Break content-linking using the icon on the status bar
++ Break content-linking using the icon on the status bar or the shortcut
 
 + Find the target of the link in the contents panel
 
@@ -37,6 +34,7 @@ When dragging the target an icon is displayed alongside the cursor:
 
 On releasing the cursor on the target, a dialog appears:
 
+<a name="fixlinkdialog"></a>
 ![Fix link dialog](/images/fixlinkdialog.png)
 
 
