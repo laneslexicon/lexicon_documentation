@@ -1,12 +1,13 @@
 
 
+Two main areas make up the application: the contents panel containing a heirarchy of letter, roots, and root derivateves and the tab panel where individual entries are viewed.
 
 The contents panel is, by default, to the left. It can be moved by left-clicking on the title bar and dragging:
 
 ![Undocking the contents](/images/undocking.png)
 
 
-It can be left undocked or docked to the right. (To dock on the right, drag the panel to beyond the right edge of the screen and then move it to the left until the docking area becomes available as shown by the change of colour (as seen above).
+It can be left undocked (floated) or docked to the right. (To dock on the right, drag the panel to beyond the right edge of the screen and then move it to the left until the docking area becomes available as shown by the change of colour (as seen above).
 
 
 There three toolbar groups each of which can be moved and repositioned to the left,right or bottom of the application by dragging on the toolbar handle:
@@ -25,3 +26,8 @@ There three toolbar groups each of which can be moved and repositioned to the le
 
 
 (Text descriptions of the actions can be added to the toolbar by setting an option described [here](../options/options_system.md#toolbartext))
+
+
+It is possible to hide the menu, the toolbar,the statusbar  and the contents panel, giving a minimal appearance as in this image of the author's desktop:
+
+![Minimal](/images/minimal_desktop_50.png)

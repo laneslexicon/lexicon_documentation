@@ -1,5 +1,6 @@
 ## Contents
 
+
 The contents and the currently viewed entry can be made to be behave independently or set so that any movement in one is reflected in the other. This behaviour, linked vs not linked, can be set by clicking on the icon in the status bar:
 
 ![Content link](/images/contentlinking.png)

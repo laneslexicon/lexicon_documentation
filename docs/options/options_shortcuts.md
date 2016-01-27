@@ -54,7 +54,7 @@ To set a shortcut, click on the item and press the required keys.
 | | Focus contents | Ctrl+M,C | Give keyboard focus to the panel of roots |
 | | Focus entry    | Ctrl+M,E | Give keyboard focus to the contents panel |
 | Bookmarks| | | |
-| | Add | Ctrl+B, &l;tboomkark id&gt; | |
+| | Add | Ctrl+B, &lt;boomkark id&gt; | |
 | | Input | Ctrl+B,Ctrl+A | Prompt for a bookmark name |
 | | List | Ctrl+B,Ctrl+L | Show the bookmark list dialog |
 | | Jump | Ctrl+J, &lt;bookmark id&gt;| Jump to the bookmark with the id |
@@ -63,9 +63,9 @@ To set a shortcut, click on the item and press the required keys.
 
 **Note**: shortcuts related to bookmarks are set [here](options_bookmarks.md). They are listed here for completeness.
 
-**Note**: when setting shortcuts do not use the sequences that has been setup as the bookmark add and jump prefixes i.e Ctrl+B and Ctrl+J.
+**Note**: when setting shortcuts do not use the sequences that has been setup as the bookmark add and jump prefixes i.e Ctrl+B and Ctrl+J in the above example.
 
-Since the shortcuts are saved in the configuration file it is possible to set them by editing the file. When doing this always wrap the text in quotes, like this:
+Since the shortcuts are saved in the configuration file it is possible to set them manually by editing the file. When doing this always wrap the text in quotes, like this:
 
     Options="Ctrl+O,P"
 

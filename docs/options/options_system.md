@@ -2,9 +2,9 @@
 
 #### Databases
 
-The Lexicon database holds all the entries in the lexicon.
+The Lexicon database is the main system databae and holds all the entries in the lexicon.
 
-The notes database stores user notes and pageset information.
+The notes database stores user notes and pageset information while the history database stores visited locations for later retrieval (if enabled, see [here](options_history.md)).
 
 #### New tab behaviour
 
@@ -32,11 +32,15 @@ When checked, short text descriptions of the toolbar icons are shown underneath 
 
 #### Allow duplicates
 
-When not checked, a root cannot be shown in more that one tab
+When requesting a root or entry, the system checks whether the required entry is already visible in an existing tab and switches to that tab if it is. If this option is set, this check is skipped.
 
 #### Keyboard
 
-The name of the current virtual keyboards. The drop-down box list the alternatives. (Details of virtual keyboards can be found [here](../dev-guide/vkeyboard.md)
+The name of the current virtual keyboard. The drop-down box list the alternatives. (Details of virtual keyboards can be found [here](../dev-guide/vkeyboard.md)
+
+#### Message duration
+
+This setting specifies how long a message will remain on the status bar before being clear. Units are milliseconds.
 
 #### Show splash screen
 

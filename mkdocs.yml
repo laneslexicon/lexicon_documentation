@@ -5,12 +5,13 @@ pages:
   - 'Background'  : 'introduction/intro.md'
   - 'Quick start' : 'introduction/start.md'
 - 'User Guide':
-  - Docking : user-guide/docking.md
+  - Appearance : user-guide/docking.md
   - Contents and entry : user-guide/moving.md
   - Tabs     : user-guide/tabs.md
   - Searching : 'user-guide/search.md'
   - Entering Arabic text : user-guide/entering.md
   - Bookmarks : 'user-guide/bookmarks.md'
+  - History : user-guide/history.md
   - Saving state : 'user-guide/tabsets.md'
   - Notes : 'user-guide/notes.md'
   - Cross references : 'user-guide/missinglinks.md'
