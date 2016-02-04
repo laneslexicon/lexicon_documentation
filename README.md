@@ -3,8 +3,8 @@ This repository is to be used in conjuction with laneslexicon/lexicon repository
 ```
 project root
 |
-|--- documentation repository
-|--- lexicon repository
+|--- documentation
+|--- lexicon
 |--- parser
 |--- xml
 ```

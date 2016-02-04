@@ -34,10 +34,13 @@ perl orths.pl --report --xml ../xml/b0.xml
 perl orths.pl --report --xml ../xml/b0.xml --node n2033 --show
 ```
 
-+ To generate a fixe file for a node
++ To generate a fix file for a node
 ```
 perl orths.pl --db lexicon.sqlite --xml ../xml/b0.xml --node n2033 --dry-run --xml-out fixed.xml
 ```
+
+The generated file, in this case  "fixed.xml", can be distributed and imported by the application to apply the fix.
+
 
 + To apply corrected xml directly to the database
 ```
