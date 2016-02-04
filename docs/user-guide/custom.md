@@ -55,7 +55,6 @@ For each headword, the XML fragment consisting of the &lt;entryFree&gt; tag and 
 To show a root and its headwords, the relevant records from the database are read and the XML for each headword is processed and converted to HTML.
 The actual appearance of the text i.e. its font, color, size etc is controlled through a stylesheet just as in any web page.
 
-
 In the image below the same text is show on the left as it appears in the application, on the right is the HTML that is the source of that text:
 
 <img src="images/entry_sidebyside.png" alt="Headword with HTML"></img>
@@ -70,14 +69,12 @@ stylesheet is:
 </span>
 
 
-So, to change the Arabic font used on all the pages it is simple a matter of changing 'Amiri' to the name of another font. In the same way
-the English text is controlled through the class "entry":
+So, to change the Arabic font used on all the pages it is simple a matter of changing 'Amiri' to the name of another font. To change the appearance of non-Arabic text, relevent line is:
 
 <span class="pre">
-.entry { margin-left : 30px; font-family : Droid Sans;font-size : 12px; }
+body { font-family : Fira Sans;font-size : 14px }
 </span>
 
-The application provides a convenience method of changing these two entries via the Tools menu so it is not always necessary to edit the stylesheet. However that method
-only changes the font name and size, for more fine grained control it is necessary to edit the stylesheet. It should be noted that not all HTML is supported -
-for more details see <a href="http://doc.qt.io/qt-5/richtext-html-subset.html">here</a>. (The linked page refers to 'text widgets' - each headword in the application
-is such a widget.
+The application provides a convenience method of changing these two entries via *Menu -> Tools -> Change font* so it is not always necessary to edit the stylesheet. However that method only changes the font name and size, so for more fine grained control it is necessary to edit the stylesheet. It should be noted that not all HTML is supported - for more details see <a href="http://doc.qt.io/qt-5/richtext-html-subset.html">here</a>. (The linked page refers to 'text widgets' - each headword in the application is such a widget.)
+
+It should be noted that there is a separate CSS file for printing, the principal difference is that links are printed as black text without underlines.

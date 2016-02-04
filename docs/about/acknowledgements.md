@@ -14,3 +14,5 @@
 * Sotheby's, for permission to use the [image](http://www.sothebys.com/en/auctions/ecatalogue/2014/arts-islamic-world-l14223/lot.59.html) of a printers' manuscript copy of Lane's Lexicon.
 
 * The default virtual Arabic keyboard layout is by [Eric van Lit](http://digitalorientalist.com).
+
++  The icons are from the [KDE project](https://techbase.kde.org/Projects/Oxygen/Licensing)  and are licensed under GPL3.

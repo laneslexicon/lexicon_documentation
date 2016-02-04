@@ -1,5 +1,23 @@
 
-Lexicon entries and search results are arranged in a series of tabs. The current tab can be changed by:
+Lexicon entries and search results are arranged in a series of tabs.
+
+<!--
+Whether or not a new tab is created and made current
+
++ if an item in the contents panel was activated when &lt;Shift&gt; or &lt;Control&gt; key was pressed
++ search dialogs have
++ bookmarks
++ history
+-->
+
+
+By default, the currently open tabs, their title and their zoom settings are all saved when the application exits and reloaded when it starts. This behaviour can be changed by changing the appropriate setting [here](../options/options_system.md#tabreload).
+
+When a new tab is created it may be inserted after the current tab or at the end of all the tabs. This is controlled by [this](../options/options_system.md#newtab) setting.
+
+
+
+The current tab can be changed by:
 
 + Clicking on the tab head
 
@@ -22,7 +40,8 @@ Right-clicking on the top of a tab will invoke the context menu:
 
 (The context menu entry 'Save tabs' is explained [here](../user-guide/tabsets.md).)
 
-Double-clicking the top of a tab will all the the tab title to be changed.
+To change the title of tab, double-click the top of a tab and enter the desired title in the dialog that appears.
+
 
 
 The tab shortcuts can be changed as explained [here](../options/options_shortcuts.md).

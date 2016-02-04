@@ -1,32 +1,4 @@
-## Contents
-
-
-The contents and the currently viewed entry can be made to be behave independently or set so that any movement in one is reflected in the other. This behaviour, linked vs not linked, can be set by clicking on the icon in the status bar:
-
-![Content link](/images/contentlinking.png)
-
-This behaviour can also be turned on and off using the shortcut Ctrl+L.
-
-Irrespective of whether the contents and the entry are linked, single-clicking an the arrow to the left of a letter or a root, will expand to show the roots or the root derivatives respectively. Pressing spacebar has the same effect.
-
-Double-clicking an entry will always load that entry.
-
-![Expand root](/images/expandroot.png)
-
-An "expand" arrow will only be visible to the left of a root if it is being, or has been, displayed in the current session. If no expand arrow is visible a root may be expanded by pressing the spacebar when the root is selected (shown by a blue blackground). To select a root without loading it, single click on the root.
-
-To move between roots with the keyboard, use the  up/down arrows or the 'w' and 's' keys. To expand/contract a root use the spacebar or the 'x' key.  (By default, see [contents options](../options/options_contents.md)).
-
-To switch focus between contents and entry using the keyboard there are two shortcuts : to focus on the contents Ctrl+M,C , Ctrl+M,E to focus on the entry. (For a list of shortcuts see [here](../options/options_shortcuts.md).)
-
-If the contents are not linked, they can be brought into alignment using the two options:
-
-+ align contents to entry  - causes the highlighted root to be set to match the currently viewed item
-+ align entry to contents  - load the currently highlighted root into the current tab
-
-These actions can be performed either via  *Menu -> View*, the toolbar items or the appropriate shortcuts.
-
-## Viewing an entry
+### Viewing an entry
 
 Double-click on a root to load the root and all of its derivatives into the current tab. Holding the shift or control key while clicking will load the root into a new tab.
 
@@ -57,17 +29,32 @@ Further information about notes can be found [here](notes.md) and bookmarks [her
 
 Text can be selected with the mouse or the context menu and copied to the clipboard. (The context menu item "Copy" will copy all the selected text, not just that of the currenty entry.)
 
+#### Printing
 
+An individual headword or the root and its its derivatives can be printed. Further information about how to setup printer is described [here](../options/options_printer.md). [This](../sample.pdf) is a sample pdf.
 
 #### Zooming
 
-The current page may be zoomed using either the +/- keys or from the toolbar. Each tab has its own zoom level but a default zoom can be set for all tabs using  *Menu -> View -> Set default zoom".
+The current page may be zoomed using either the +/- keys or from the toolbar. Each tab has its own zoom level but a default zoom can be set for all tabs using  *Menu -> View -> Set default zoom* or via the Options [dialog] (../options/options_entry.md).
 
 The dialog can retrieve the zoom from the current tab allowing the user to adjust the zoom for the current page and then use the dialog to set that value as the default.
 
 ![Default zoom](/images/defaultzoom.png)
 
+This work as follows:
+
+|Control|Action|
+|------|------|
+| Ok |  Set the default value for all new tabs from the spin box |
+| Get from current tab | Populate the spin box with the zoom from the current tab |
+| Set for current tab  | Set the zoom for the current tab from the spin box       |
+| Apply zoom to all tabs| If Ok, is clicked, sets the zoom for all open tabs from the spin box |
 
 #### Text width
 
-The text width (in pixels) of the entries can be adjusted in a similiar fashion to the zoom but using *Menu -> View -> set default text width*
+
+If the user maximizes the application or otherwise increase its width, the text width will not automatically increase. This must be done manually using either the *Menu -> Entry -> Widen* or the toolbar buttons widen ![widen](/images/zoom-fit-width.png) and narrow ![narrow](/images/zoom-fit-narrow.png).
+
+While the text in each tab can be adjusted independently, there is a default text width that can be set via the Options [dialog](../options/options_entry.md). This setting only applies to new tabs.
+
+To adjust the text width for all current tabs use  *Menu -> View -> Set text width* which works in a similar to fashion to the zoom dialog described immediately above.

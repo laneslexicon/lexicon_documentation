@@ -1,5 +1,6 @@
 
-#####<a name="v"></a>v
+#####v
+<a name="v"></a>
 
 In the year 1842, a most generous offer made to me by the present Duke of Northumberland (then Lord Prudhoe) enabled me to undertake the composition of this work; and to His Grace's princely aid I have ever since been mainly indebted for the means of accomplishing the project thus originated.
 
@@ -42,8 +43,8 @@ or "Mukḥaḍram," or "Mukḥaḍrim." A poet of the class next after the Mukha
 
 The poetry of the Jáhilees and the Mukhaḍrams consists, first, of *odes* (termed قَسَائد, plural قَسِيدَة), which were regarded as complete poems, and which were all designed to be chanted or sung; secondly, of shorter compositions, termed *pieces* (قِطَع, plural of قِطْعَة); many of which were also designed to be chanted or sung; and thirdly, of *couplets*,or *single verses*. In the first of these classes are usually included all poems of more than fifteen verses: but few odes consist of much less than fifty verses or much more than a hundred. Of such poems, none has been transmitted, and none is believed to have existed, of an age more than a few generations (probably not more than three or four or five) anterior to that of Moḥammad. It is said in the 49th Section of the Muzhir, on the authority of Moḥammad Ibn-Selám El-Jumaḥee, that "the pristine Arabs had no poetry except the few verses which a man would utter in his need: and odes (ḳaṣeedehs) were composed, and poetry made long, only [for the first  time] in the age of 'Abd-El-Muṭṭalib [Moḥammad's grandfather], or Ḥáshim Ibn-'Abd-Menáf [his great-grandfather]." And shortly after, in the same Section of that work, it is said, on the same authority, that "the first who composed poems of this kind was El-Muhelhil Ibn-Rabee'ah Et-Teghilbee, on the subject of the slaughter of his brother Kuleyb:" "he was maternal uncle of Imra-el Ḳeya [3](#n3) Ibn-Ḥojr El-Kindee." "Or, according to 'Omar Ibn-Shebbeh, each tribe claimed priority for its own poet; and not merely as the author of two or three verses, for such they called not a poem: the Yemáness claimed for Imra-el-Ḳeys; and Benoo-Asad, for 'Abeed Ibn-El-Abraṣ; and Teghlib, for [El-] Muhelhil; and Bekr, for 'Amr Ibn-Ḳamee-ah and El-Muḳḳ El-Akbar; and Iyád, for Aboo-Du-ád: and some assert that El-Afwah El-Azdee was older than these, and was the first who composed ḳaṣeedehs: but these for whom priority in poetry was clamed were nearly contemporary; the oldest of the probably not preceding the Flight by a hundred years, or thereabout. Thaalab says, in he 'Amálee,' El-Aṣma'ee says that the first of the poets of whom is related a poem extending to thirty versions is [El-] Muhelhil: then, Dhu-eyb Ibn-Kaạb Ibn-'Amr Ibn-Temeem Ibn-Ḍamreh, a man of Benoo-Kináneh; and El-Aḍbaṭ Ibn-Ḳureyạ: and he says, Between these and El-Islám was four hundred years: and Imra-el-Ḳeys was long after these." But this is inconsistent with the assertion of the Ibn-Selám mentioned above, mad alos by En-Näwawẹe in his "Tadheeb el-Asmà," p. 163, that El-Muhelhil was maternal uncle of Imra-el-Ḳeys: and as the majority refer El-Muhelhil to a period of about a century before the Flight, we have a double reason for holding this period (not that of hour hundred years) to be the more probably
 
-#####<a name="x"></a>x
-
+#####x
+<a name="x"></a>
 correct. According to Ibn-Ḳuteybeh, the time of Imra-el-Ḳeys was forty years before that of Moḥammad; as is stated in the Calcutta edition of the Mo'allaḳát. M.Fresnel contends that the honour commonly ascribed to El-Mihelhil is due to Zubeyr Ibn-Jenáb El-Kelbee, of whose poetry at least seventy-nine verses have been preserved, fragments of different poems, including a piece of fifteen verses, of which the first hemistich of the first verse rhymes with the second hemistich, according to rule. But this Zubeyr, during a portion of his life, is related to have been contemporary with El-Muhelhil. In a fragment ascribed to him, he represents himself (if the fragment be genuine) to have lived two hundred years: and one tradition assigns to him a life of two hundred and fifty years; another, four hundred years; and another, four hundred and fifty years! [4](#n4)  —Upon the whole, then, it seems that we may with probability refer the first ḳaṣeedeh to a period with a century and a half, at the utmost, before the Flight.
 
 Moḥammad said, on being asked, "Who is the best of the poets?" "Imra-el-Ḳeys will be the leader of the poets to Hell." And in the general estimation of the Arabs, he is the most excellent of all their poets. Ilis <!--CHECK--> Mo'allaḳah is most especially admired by them. Of the pagan and unbelieving poets who flourished before and during the time of Moḥammad, El-Beyḍáwee sarcastically remarks (on chap. xxvi. verses 224 and 225 of the Ḳur-án, in which, and in the verse that next follows, they are censured as seducers, bewildered by amours desire, and vain boasters,) "Most of htir themes are unreal fancies, and their words chiefly relate to the description of the charms of women under covert, and amorous dalliance, and false arrogations or professions, and the rending of reputations, and the impugning of the legitimacy of parentages, and false threatening, and vain boasting, and the praise of such as don not deserve it, with extravagance therein." The like is also sain the Keshsháf, (in the same passage of the Ḳur-án,) and in too large a degree we must admit it to be just; but it is very far from being unexceptionable. The classical poetry is predominantly objective, sensuous, and passionate; with little imagination, or fancy, except in relation to phantoms, or spectres, and to jinn, or genii, and other fabulous beings; and much less artificial than most of the later poetry, many of the authors of which, lacking the rude spirit of the Bedawees, aimed chiefly at mere elegancies of diction, and plays upon words. Generally speaking, in the classical poetry, the descriptions of nature, of the life of the desert, of night-journeyings and day-journeyings, with their various incidents, of hunting, and stalking, and lurking for game, of the tending of camels, of the gathering of wild honey, and similar occupations, are most admirable. And very curious and interesting, as will be shown by many citations in the present work, are its frequent notices (mostly by early Muslim poets) of the superstitions that characterized, in the pagan times, the religion most generally prevailing throughout Arabia; in which, with the belief in a Supreme Deity,  with strange notions of a future state, and with angelolatry, astrolatry, and idolatry, was combined the lowest kind of fetishism, chiefly the worship of rocks and stones and trees, probably learned from Negroes, of whom the Arabs have always had great numbers as slaves, and with whom they have largely intermixed. Sententious language consisting of parallel clauses, like that of the so-called "poetical books" of the Bible, was probably often employed by the Arabs of every age. It seems to be almost natural to their race when excited by eloquence. But the addition of rhyme in this style of language appears to have become common in the later times. Moḥammad Ibn-Eṭ-Ṭeiyib El-Fásee says (in article ضطب of his Annotations on the Ḳámoos) that the oration termed ضُطْبَة, in the Pagan and the early Muslim ages, was, in most instances, not in rhyming prose. The remains of classical prose are often used as authorities; but being more liable to corruption, they are regarded as less worthy of reliance than the poetry.[5](#n5)
@@ -254,7 +255,7 @@ The following tables will, I believe, supply all further explanations that will 
 #####xxvii
 
 
-I.—*Table of the Conjugations of Arabic Verbs*
+####I.—*Table of the Conjugations of Arabic Verbs*
 
 
 <div>
@@ -485,7 +486,7 @@ Beside these, there some other forms of Q.&nbsp;Q. verbs, not to be classed with
 
 #####xxix
 <a name="grammaticalterms"></a>
-II.—*Table of the Lexicological and Grammatical Terms &c. used in the following work.*
+####II.—*Table of the Lexicological and Grammatical Terms &c. used in the following work.*
 
 <table class="grammarterms">
 <tr>
@@ -732,7 +733,7 @@ Verbal noun, اِسْمُ فِعْلٍ
 #####xxx
 
 
-III.—*Chronological list of the more celebrated of the Lexicologists and Grammarians cited in the following work, extracted from the 48th Section of the Muzhir: with some additions, which are marked with an asterisk.*
+####III.—*Chronological list of the more celebrated of the Lexicologists and Grammarians cited in the following work, extracted from the 48th Section of the Muzhir: with some additions, which are marked with an asterisk.*
 
 
 
@@ -1311,7 +1312,9 @@ The "Táj el-Aroos"): died in <span class="fr">1205</span>
 #####xxxi
 
 
-IV.—*Indications of Authorities*
+####IV.—*Indications of Authorities*
+
+<a name="authorities"></a>
 
 From all these authorities I have drawn through the medium of the Táj el-'Aroos or the Lisán el-'Arab, except those distinguished by the mark ‡, which denotes those whence I have always drawn immediately: from many of them I have also drawn through the medium of some other lexicon than those two above named: and from those distinguished by the mark † I have often, or generally, drawn immediately. What is meant by an asterisk placed after any indication of an authority in my lexicon has been explained in page xxvi.
 

@@ -22,6 +22,8 @@ To set a shortcut, click on the item and press the required keys.
 | | Back | Ctrl+H,B| |
 | | Next | Ctrl+H,N| |
 | | Clear | | |
+| | Enable | Ctrl+H,E| |
+| | Disable | Ctrl+H,D| |
 | Navigation | | |Movement by root |
 | | First | Ctrl+N,F| |
 | | Next | Ctrl+N,N| |
@@ -45,14 +47,15 @@ To set a shortcut, click on the item and press the required keys.
 | | Toggle interface | Ctrl+I | Toggle minimal interface |
 | | Show logs | Ctrl+V,L | Show the log viewer |
 | | Quit      | Ctrl+Q | Exit the application |
-| | Sync page | Ctrl+G,R | Show the current |
-| | Sync contents | Ctrl+G,L | |
+| | Sync page | Ctrl+G,R | Align the page with the current contents |
+| | Sync contents | Ctrl+G,L | Align the contents with the current page|
 | | Show notes | Ctrl+N,S | Show the note browser |
 | | Menu show  | Ctrl+M,S | Show the menu |
-| | Toggle link| Ctrl+L   | Toggle the Contents panel and the entry |
+| | Toggle link| Ctrl+L   | Toggle the linking ofthe contents panel and the entry panel|
 | | Options    | Ctrl+O,P | Show the preferences dialog|
 | | Focus contents | Ctrl+M,C | Give keyboard focus to the panel of roots |
 | | Focus entry    | Ctrl+M,E | Give keyboard focus to the contents panel |
+| | Toggle allow duplicates | Ctrl+U | |
 | Bookmarks| | | |
 | | Add | Ctrl+B, &lt;boomkark id&gt; | |
 | | Input | Ctrl+B,Ctrl+A | Prompt for a bookmark name |

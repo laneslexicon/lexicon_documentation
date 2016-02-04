@@ -27,7 +27,7 @@ When using the keyboard movement commands, this option controls what happens whe
 
 ##### Zoom
 
-This adjusts the zoom for the current entry, not the default zoom. The setting is saved between sessions.
+The zoom setting for new tabs. Changing this does not change the scaling of the current tabs. (This can be done using *Menu -> View -> Set zoom*.)
 
 ##### Show link warning
 
@@ -35,7 +35,7 @@ When repairing links, as described [here](../user-guide/missinglinks.md), settin
 
 ##### Text width
 
-This adjusts the textwidth for the current entry, not the default text width. The setting is saved between sessions.
+This is the default text width for all entries. Changing this does not change the text width of current tabs. (This can be done using *Menu -> View ->Set text width*.)
 
 ##### Text margin
 

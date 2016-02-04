@@ -1,3 +1,3 @@
-about me
+This software are released under the GPL3 License.
 
-                    <div>Icon made by <a href="http://www.flaticon.com/free-icon/print-machine_23587" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</
+For details see [here](https://www.gnu.org/licenses/gpl-3.0.html).

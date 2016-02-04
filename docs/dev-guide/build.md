@@ -13,6 +13,7 @@ The description that follows assumes that these projects are organised as sub-fo
 
     <Project Root>
         |
+        |--- logs
         |--- xml
         |--- parser
         |--- gui
@@ -20,7 +21,7 @@ The description that follows assumes that these projects are organised as sub-fo
 
 #### Requirements
 
-+ Qt
++ Qt Framework
 + Perseus XML
 + Perl (and various modules)
 + LibXSLT
@@ -32,7 +33,7 @@ The application is built with the Qt Framework available from [here](http://qt-p
 
 Please note that the current version of this software requires a Qt version that includes the QWebView module, which is deprecated but still available in Qt 5.5. Once its replacement, QWebEngine, is available on all platforms this software will be updated.
 
-TODO mention gl.h requirement
+
 
 #### mkdocs
 
@@ -40,28 +41,34 @@ The documentation is built using [mkDocs](http://www.mkdocs.org). Please see the
 
     pip install mkdocs
 
-#### LibXSLT
+##### LibXSLT
 
 
-##### Debian based systems (e.g. Linux Mint,Ubuntu)
+###### Debian based systems (e.g. Linux Mint,Ubuntu)
 
 ```sh
 sudo apt-get install libxml2-dev libxslt1-dev
 ```
 
-##### Windows
+###### Windows
 
-##### OSX
 
-##### FreeBSD
+Please see [here](http://xmlsoft.org/XSLT/downloads.html) for details on obtaining libxslt for Windows.
+
+
+###### OSX
+
+No action necessary (?).
+
+###### FreeBSD
 
     pkg install libxslt libxml2
 
 #### Building the database
 
-The database is built by a number of Perl scripts, which can be run a supplied  makefile:
+The database is built by a number of Perl scripts, which can be run via a supplied  makefile:
 
-To build from parser directory do:
+Build from parser directory do:
 
     make -f util.mak build
 
@@ -86,11 +93,11 @@ The source directory contains build files, sources files and a number of subdire
         |--- options
         |
         |--- qslog
-        |
-        |--- tools
 
 
-Each subdirectory contains a relatively isolated set of code (except for "docs" and "help") and often has a separate test program and associated build files.
+
+
+Each subdirectory contains a relatively isolated set of code and often has a separate test program and associated build files.
 
 A brief description of each directory:
 
@@ -109,10 +116,13 @@ A brief description of each directory:
 + qslog - The logging source files.
 
 
-+ tools
 
 
-TODO mention include paths for libxslt and libxml for Win32
+Before buiding the application for the first time it is advisable to check the build file (laneslexicon.pro) as this contains hard coded directory information.
+
+
+For the build to be successful, Qt needs to be able to locate the OpenGL header file gl.h.
+
 
 To build the application do:
 
@@ -133,10 +143,24 @@ The local build can be viewed by doing:
 and pointing the browser at http://127.0.0.1:8000
 
 
-##### Building a local version of the help files
+The documentation is built in the subdirectory 'site'.
 
-After building the documentation is should be copied to the xxxxxx
+In order for Arabic text to have a suitable font, a script (ar_markup.pl) is provided. This scans the generated HTML files and wrap Arabic text in &lt;span class="arabic"&gt;.
 
-TODO describe publish.sh
 
-##### Sitemap.ini
+
+    perl ar_markup.pl --site site --verbose
+
+#### Building a local version of the help files for the program documentation
+
+
+The same help files are used for the program documentation and the documentation/site directory should be copied are to the Resources/site directory after running the ar_markup script.
+
+The generated help files contain links to googleapis.com, such as:
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+This can significantly slow the in-program documentation. One way to remove them on *nix is
+
+
+    find Resources/site -iname "*.html" -exec perl -i -ne 'print unless /googleapis.com/' {} \;

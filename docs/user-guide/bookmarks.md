@@ -1,6 +1,5 @@
-##Bookmarks
 
-Invidual entries within a page can be bookmarked for easy retrieval.
+Individual entries within a page can be bookmarked for easy retrieval.
 
 There are two types of bookmarks: single-letter marks and anything longer.
 

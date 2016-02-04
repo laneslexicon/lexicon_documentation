@@ -42,8 +42,10 @@ This process can be repeated any number of times.
 
 
 ### Exporting and Importing fixes
-
+<a name="export"></a>
 
 If the user has repaired broken links, these fixes will be removed if the software is re-installed or an updated database is installed.
 
 For this reason, links should be saved to a file using the *Tools -> Export links* menu option prior to any software updates and then reloaded using *Tools -> Import links*.
+
+The author of the software will be happy to receive and make generally available, any fixes. Please see the [Contact](../contact.md) page for details.

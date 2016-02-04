@@ -1,4 +1,6 @@
 
+In a small number of cases the Arabic word order associated with a link/cross-references will be incorrect.
+
 
 ####The problem
 
@@ -12,13 +14,11 @@ One description of this problem would be: whenever Arabic text precedes a cross-
 
 
 Unfortunately it is not that simple.
-
-
+<!---
     It is said in a trad., <foreign lang="ar" TEIform="foreign">mano SaA
         ma</foreign> <lb/> ↓
       <orth type="arrow" lang="ar">Ald~ahora falaA SaAma walaA A^al~aY</orth>
-
-
+--->
 
 To understand the difficulty we need to look at the details of the markup applied to the original text during digitization.
 
@@ -39,7 +39,7 @@ The Arabic text is transliterated (see [here](../other/buckwalter.md) for detail
 <foreign>laA  A=luwka nuSoHFA</foreign>
 --->
 
-Standalone Arabic text is wrapped in  &lt;foreign&gt; tags; Arabic text in a cross-reference in &lt;orth&gt; tags.
+Standalone Arabic text is wrapped in  &lt;foreign&gt; tags; Arabic text in a cross-reference is wrapped in &lt;orth&gt; tags.
 
 <!---
 The three Arabic words are transliterated (see [here](../other/buckwalter.md) for details) and wrapped in &lt;foreign&gt; tags in the correct word order.
@@ -51,7 +51,7 @@ Now consider the first example highlighted above,
       And <foreign lang="ar">A^ano yafoEala</foreign> ↓
       <orth type="arrow">A_in~ahu lamajodarapN</orth>, (K,) and in like manner
 
-Note the structure: a  &lt;foreign&gt; tag and an &lt;orth&gt; either side of <span style="font-size:150%">↓</span>.
+Note the structure: a  &lt;foreign&gt; tag and an &lt;orth&gt; either side of <span style="font-size:150%">↓</span> with no intervening non-Arabic text.
 
 <!---
 
@@ -112,7 +112,13 @@ The method is to insert a &lt;lb/&gt; between the  &lt;foreign&gt; and the &lt;o
       <orth type="arrow" lang="ar">Ald~ahora falaA SaAma walaA A^al~aY</orth>
 
 
-The fix has to be applied to the XML and then processed and loaded into the database using the provided [script](../dev-guide/scripts.md#orths). So for example, the above entry (n1226) occurs in the file _A0.xml:
-
+The fix has to be applied to the XML and then processed and loaded into the database using the provided [script](../dev-guide/scripts.md#orths). For example, the above entry (n1226) occurs in the file _A0.xml. After the XML has been edited:
 
     perl orths.pl --db lexicon.sqlite --node n1126 --perseus ../xml/_A0.xml
+
+
+The script will apply the changes to the database.
+
+As the author of the software gradually identifies which of the 3577 cases fall on line breaks, updates will be made available and distributed as XML files. (See [here](../other/dbupdate.md) for information how to apply partial updates.)
+
+Please [report](../contact.md)  any cases you find.

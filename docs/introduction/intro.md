@@ -1,5 +1,6 @@
-The purpose of this software is to provide its' users with a means to read Lane's Arabic-English Lexicon in a modern format; the content has not changed, merely its presentation.
 
-In this format the Lexicon can be easily browsed and searched, entries can be printed, copied to the clipboard and their appearance customized , for example, to use an Arabic font of the user's choice.
+This software provides a presentation of Edward William Lane's Arabic-English Lexicon, based on the digitization of the original text done by  the [Perseus Digital Library at Tufts University](http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Arabic).
 
-This software would not have been possible with the digitization of Lane's original text as part of the [Perseus Digital Library at Tufts University](http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Arabic). (Note: external links will be opened in your normal browser.)
+As such it is a standalone, self-contained desktop application that does not require an internet connection.
+
+It provides the ability to view and search the Lexicon, allowing individual entries to be viewed, printed or copied and pasted into external applications.

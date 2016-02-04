@@ -14,7 +14,9 @@ When checked, output is written to a PDF file
 
 #### PDF directory
 
-Click the "Select directory" button to select the  location into all which all PDF files will be written. If blank, the current working directory will be used.
+Click the "Select directory" button to select the  location into all which all PDF files will be written. This defaults to a directory called "prints" within the working directory.
+
+If blank, the system's temporary directory is used.
 
 #### Auto name PDF
 
