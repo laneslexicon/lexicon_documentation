@@ -5,7 +5,11 @@ project root
 |
 |--- documentation repository
 |--- lexicon repository
+|--- parser
+|--- xml
 ```
+
+(The laneslexicon/parser and laneslexicon/xml repositories are part of the same project, but directly relevant here.)
 
 From the documentation directory do
 
@@ -34,7 +38,7 @@ perl ar_markup.pl --site site --verbose
 #### Building a local version of the help files for the program documentation
 
 
-The same help files are used for the program documentation and the documentation/site directory should be copied to the Resources/site directory after running the ar_markup.pl script.
+The same help files are used for the program documentation and the documentation/site directory should be copied to the Resources/site sub-directory after running the ar_markup.pl script. (See [here](http://laneslexicon.github.io/lexicon/site/custom/themes/index.html) for information about the location of the Resources directory.
 
 The generated help files contain links to googleapis.com, such as:
 
