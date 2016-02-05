@@ -21,7 +21,7 @@
     	--help                      Print this
 
 
-Use cases
+Use cases:
 
 + To report on all the &lt;orths&gt; in a file
 ```
@@ -29,7 +29,6 @@ perl orths.pl --report --xml ../xml/b0.xml
 ```
 
 + To show the original XML, the fixed XML and orth analysis for a node
-
 ```
 perl orths.pl --report --xml ../xml/b0.xml --node n2033 --show
 ```
@@ -42,7 +41,7 @@ perl orths.pl --db lexicon.sqlite --xml ../xml/b0.xml --node n2033 --dry-run --x
 The generated file, in this case  "fixed.xml", can be distributed and imported by the application to apply the fix.
 
 
-+ To apply corrected xml directly to the database
++ To apply the corrected xml directly to the database
 ```
 perl orths.pl --db lexicon.sqlite --xml ../xml/b0.xml --node n2033
 ```
