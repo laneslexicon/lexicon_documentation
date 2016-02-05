@@ -139,6 +139,7 @@ sub scanText {
   my @skipLength;
   my $skipIndex = 0;
   my $spansAdded = 0;
+  my $arabiclength = 0;
   # find skip_start and skip_end positions
   # so we can jump over them
   print STDERR "Doing: scanText(\"$text\")\n" if $verbose;
@@ -155,7 +156,8 @@ sub scanText {
     $skipIndex = -1;
   }
   my $out = "";
-  for (my $i = 0; $i < length $text;$i++) {
+  my $max = length $text;
+  for (my $i = 0; $i < $max;$i++) {
     my $c = substr $text , $i, 1;
     if ($skipIndex != -1) {
       if ($i >= $skipStarts[$skipIndex]) {
@@ -176,6 +178,10 @@ sub scanText {
       $arabicEnd = 0;
       while (! $arabicEnd ) {
         $i++;
+        if ($i == $max) {
+          $arabicEnd = $i;
+          next;
+        }
         $c = substr $text , $i, 1;
         next if $c =~ /\p{IsSpace}/;
         next if $c =~ /\p{IsPunct}/;
@@ -187,6 +193,7 @@ sub scanText {
           $arabicEnd = $i - 1;
         }
       }
+#      print STDERR "$arabicStart $arabicEnd\n";
       # move back to last Arabic character so we don't include trailing
       # punctuation
       for (my $j=$arabicEnd;$j > $arabicStart;$j--) {
@@ -196,17 +203,24 @@ sub scanText {
           $j = -1;
         }
       }
-#      print sprintf "[%s]\n", substr $text,$arabicStart,$arabicEnd - $arabicStart;
+#      if ($arabicStart == $arabicEnd) {
+#        $arabicEnd++;
+      #      }
+      $arabiclength = ($arabicStart == $arabicEnd ? 1 : $arabicEnd - $arabicStart);
+#      print STDERR sprintf "[%s]\n", substr $text,$arabicStart,$arabiclength; #$arabicEnd - $arabicStart;
+#      print STDERR sprintf "[%s]\n",substr $text,$arabicStart,1;
       # from arabic start read back to ensure
       # we don't have <span class="xxx"> immediately preceding it
-      my $x = substr $text,0,$arabicStart - 1;
+      my $x = substr $text,0,$arabicStart;# - 1;
+#      print STDERR "$arabicStart $arabicEnd $arabiclength\n";
+#      print STDERR "[$x]\n";
 #      if ($x =~ /<span\s*[^>]*>\s*$/) {
       if ($x =~ /<span\s*class="arabic">/) {
 #      if (0) {
         $out .= substr $text, $arabicStart,$arabicEnd - $arabicStart;
       } else {
         $out .= "<span class=\"arabic\">";
-        $out .= substr $text, $arabicStart,$arabicEnd - $arabicStart;
+        $out .= substr $text, $arabicStart,$arabiclength;#arabicEnd - $arabicStart;
         $out .= "</span>";
         $spansAdded++;
         #    print sprintf "%d %d\n",$arabicStart,$arabicEnd;
@@ -242,9 +256,23 @@ if ($testmode) {
   print scanText($text);
   print "\n";
   $text = "one skip_start two وَ أَنتَ what the skip_end heck";
+  print "\n";
+  print scanText($text);
+
+  print "\n";
+
+ $text = "a ح b";
+  print scanText($text);
+  print "\n";
+
+  $text = "      <td class=\"lang striped\"  align=\"center\" valign=\"middle\">ل</td>";
 
   print scanText($text);
   print "\n";
+
+
+
+
 
   exit 0;
 }
