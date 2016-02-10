@@ -45,7 +45,7 @@ pages:
   - The CSS structure of an entry : other/entrycss.md
   - The XML structure of an entry : other/entryxml.md
   - Updating the Lexicon : other/dbupdate.md
-- Sharing : sharing.md
+#- Sharing : sharing.md
 - Obtaining : obtaining.md
 - Contact : contact.md
 - Technical Guide:
