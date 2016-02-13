@@ -8,7 +8,7 @@ It is has been tested on the following operating systems:
 
 | OS | Version |
 |---|-------|
-|Windows | 7, 8 |
+|Windows | 7, 8, 10 |
 |OSX     | Mountain Lion |
 | FreeBSD  | 10.2 |
 | Linux Mint | 17 |
