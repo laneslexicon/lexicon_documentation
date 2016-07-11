@@ -1,35 +1,12 @@
-#### Platforms
+### Platforms
 
-The application can be built on Windows,FreeBSD, Linux and OSX provided the required software is installed.
+The application can be built on Windows, FreeBSD, Linux and OSX provided the required software is installed.
 
-The project as a whole is made up of four parts:
-
-+ The XML data files originating from the Perseus project
-+ Perl script that parse the XML files and populates a SQLite database
-+ A GUI application to view,search etc the data.
-+ The documentation
-
-The description that follows assumes that these projects are organised as sub-folders:
-
-    <Project Root>
-        |
-        |--- logs
-        |--- xml
-        |--- parser
-        |--- gui
-        |--- documentation
-
-#### Requirements
-
-+ Qt Framework
-+ Perseus XML
-+ Perl (and various modules)
-+ LibXSLT
-+ mkDocs
+##### Build requirements
 
 #### Qt
 
-The application is built with the Qt Framework available from [here](http://qt-project.org). The Open Source edition is suitable.
+The application is built with the Qt Framework available from [here](http://qt-project.org). The Open Source edition is suitable. On Linux systems, the version provided by the package manager can be used.
 
 Please note that the current version of this software requires a Qt version that includes the QWebView module, which is deprecated but still available in Qt 5.5. Once its replacement, QWebEngine, is available on all platforms this software will be updated.
 
@@ -44,7 +21,7 @@ The documentation is built using [mkDocs](http://www.mkdocs.org). Please see the
 ##### LibXSLT
 
 
-###### Debian based systems (e.g. Linux Mint,Ubuntu)
+###### Debian based systems (e.g. Linux Mint, Ubuntu)
 
 ```sh
 sudo apt-get install libxml2-dev libxslt1-dev
@@ -63,6 +40,50 @@ No action necessary (?).
 ###### FreeBSD
 
     pkg install libxslt libxml2
+
+### Quick build instructions for Linux and \*BSD
+
+Once the requirements have been met, to build the application:
+
+
+```
+# fetch the sources
+> git clone https://github.com/laneslexicon/lexicon
+> cd lexicon
+# generate the make file
+> qmake laneslexicon.pro
+# build it. On FreeBSD this is 'gmake'
+> make
+# fetch the database, images, documentation etc
+>git clone https://github.com/laneslexicon/lexicon_config
+# give it the right name
+>mv lexicon_config Resources
+>cd Resources
+>unzip lexicon.sqlite.zip
+>cd ..
+## run the application
+>./laneslexicon
+```
+
+
+
+### Detailed build instructions
+The project as a whole is made up of four parts:
+
++ The XML data files originating from the Perseus project
++ Perl script that parse the XML files and populates a SQLite database
++ A GUI application to view,search etc the data.
++ The documentation
+
+The description that follows assumes that these projects are organised as sub-folders:
+
+    <Project Root>
+        |
+        |--- logs
+        |--- xml
+        |--- parser
+        |--- gui
+        |--- documentation
 
 #### Building the database
 
