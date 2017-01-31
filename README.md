@@ -71,8 +71,8 @@ Then copy everything (while still in the lexicon directory). For example
 
 
 ```
-rsync -avz ../documentation/site/ Resources/site
-perl ../documentation/ar_markup.pl --site Resources/site --verbose
+rsync -avz ../documentation/site/ site
+perl ../documentation/ar_markup.pl --site site --verbose
 ```
 
 Stage and commit everything that has changed (or is new).
