@@ -8,7 +8,7 @@ The application can be built on Windows, FreeBSD, Linux and OSX provided the req
 
 The application is built with the Qt Framework available from [here](http://qt-project.org). The Open Source edition is suitable. On Linux systems, the version provided by the package manager can be used.
 
-Please note that the current version of this software requires a Qt version that includes the QWebView module, which is deprecated but still available in Qt 5.5. Once its replacement, QWebEngine, is available on all platforms this software will be updated.
+For versions of Qt prior to 5.7.1 this software uses the QWebView module to view the program documentation/help. For later versions where this module is not available, the software will try to connect to the online documentation using the user's browser. When a better cross-platform solution is available, this may change.
 
 
 
