@@ -1,5 +1,7 @@
 ### Platforms
 
+Installers are provided for Windows and OSX. Linux and \*BSD users should following these [instructions](#buildlinux).
+
 The application can be built on Windows, FreeBSD, Linux and OSX provided the required software is installed.
 
 ##### Build requirements
@@ -41,6 +43,7 @@ No action necessary (?).
 
     pkg install libxslt libxml2
 
+<a name="buildlinux"></a>
 ### Quick build instructions for Linux and \*BSD
 
 Once the requirements have been met, to build the application:

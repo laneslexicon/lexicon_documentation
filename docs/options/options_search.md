@@ -2,16 +2,12 @@
 ![Search](/images/options_search.png)
 
 
-### Full search
+### Text search
 
+<a name="rowsperpage"></a>
+##### Rows per page
 
-##### Include headword
-
-When set, any matches against headword will be included in the results.
-
-##### Headword text
-
-If the "Include headword" option is set, the text shown here will appear in the "Context" column of the search rsults.
+Sets the maximum number of rows in a page. If this is set to a high-number, there may be a noticeable "hang" while the table is being loaded.
 
 ##### Fragment size
 
@@ -21,7 +17,8 @@ The context column shows found text in its context. This setting controls how ma
 
 This CSS fragment sets the appearance of the non-Arabic text in the context column. The Arabic text is controlled [here](options_spanned.md#arabiccontext).
 
-##### One row
+
+##### One row per entry
 
 When the searched for text appears in an individual entry multiple times:
 
@@ -29,24 +26,40 @@ When the searched for text appears in an individual entry multiple times:
 
 + when not set, each match get its own row in the table and the table shows the position of the target text and the context of each match.
 
-
 ##### Progress interval
 
-How frequently the progress bar is updating.
+Determines how frequently the progress bar is updated.
+
+
+<a name="failure"></a>
+
+##### Search failure action
+
+Controls what happens when a search returns no results.
+
++ Show a search again dialog, default button 'yes'
++ Show a search again dialog, default button 'no'
++ Show the text search dialog, report search failure in status area
++ Show nothing, report search failure in status area
+
 
 ##### Dialog options
 
 ![Dialog options](/images/options_search_optsdialog.png)
 
-Use this dialog to set the default search options.
+Setting these for each search type, sets the corresponding option in the search dialog.
+
+To hide the keymap button in the text search dialog, set the option here.
 
 ### Head word search
 
+##### Close after load
+
+When viewing the entry details of a successful find, the entry may be loaded into a new tab. If this options is set, the view dialog will be closed after the tab has been loaded.
+
 ##### Use head phrase
 
-##### Dialog options
-
-Set the headword search options.
+Sets the head phrase option in the headword search dialog.
 
 ### Local search
 

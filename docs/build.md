@@ -103,19 +103,21 @@ Download the latest open source version of the Qt framework from qt-project.org
 For Windows, download the 32-bit MinGW version. The Visual Studio version is untested.
 
 
-Mac users should install the appropriate version of XCode before installing Qt.
+Mac users should install the appropriate version of XCode (the author has used Versions 5 through 8.3) before installing Qt.
 
 The only external libraries used are libXML and libXSLT:
 
 ######Linux
 
-    Install the packages libxml2-dev and libxslt-dev
+    On Debian based systems you need to install the packages libxml2-dev and libxslt-dev.
+
 
 ######Mac
 
     They appear to be pre-installed (or are installed as part of XCode)
 
 ######Windows:
+
 
 Get the binaries from ftp://ftp.zlatkovic.com/libxml/
 
@@ -154,12 +156,6 @@ To build it,
 
 This will create a static website in the subdirectory 'site'. The build config is in the file mkdocs.yml and the markdown files are in the 'doc' directory.
 
-The application help is built from the same markdown files that mkdocs uses, but is built using the script tools/buildhelp.pl. This script does the following:
-
-    runs 'markdown' on the required .md files to generate .html files
-    runs 'qcollectiongenerator' against lexicon.qhcp to generate the actual help files
-
-You need to make sure that lexicon.qhcp and the perl script are kept in sync otherwise there will be missing html files.
 #### Running the application
 
 To run the application on the same machine as it was built you do not need to copy shared libraries.
