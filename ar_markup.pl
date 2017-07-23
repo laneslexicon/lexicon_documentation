@@ -22,6 +22,7 @@ my $testmode=0;
 my $remove=0;
 my $siteRoot="";
 my $verbose=0;
+my $debug=0;
 my $arClass="arabic";
 my @sitefiles;
 my @skip = qw(windows101_ini/index.html
@@ -43,7 +44,7 @@ sub arabic {
   if (! $word ) {
     return 0;
   }
-  if ($word =~ /^[\p{InArabic}\p{IsSpace}\p{IsPunct}]+$/) {
+  if ($word =~ /^[\p{InArabic}\p{IsSpace}\p{IsPunct}\p{Bidi_Class: NSM}]+$/) {
     return 1;
   }
   return 0;
@@ -77,11 +78,11 @@ sub add_markup {
   if ($verbose) {
     print STDERR "Processing $fileName ";
   }
-  my $out = scanText($text);
+  my ($count,$out) = scanText($text);
   print $fh  $out;
   close IN;
   close $fh;
-  print STDERR "\n" if $verbose;
+  print STDERR sprintf "%s :   %d tags added\n",$fileName,$count if $verbose;
 }
 sub remove_markup {
   my $fileName = shift;
@@ -130,6 +131,12 @@ sub processSite {
   }
 
 }
+#
+# This has to deal with:
+#  1. "skip_start" and "skip_end" tags which the text may contains
+#  so that text between these two tags is not processed
+#  2. Arabic text that may already be wrapped in <span class="arabic">
+#
 sub scanText {
   my $text = shift;
   my $arabicStart;
@@ -142,7 +149,7 @@ sub scanText {
   my $arabiclength = 0;
   # find skip_start and skip_end positions
   # so we can jump over them
-  print STDERR "Doing: scanText(\"$text\")\n" if $verbose;
+
   while (($pos = index($text,"skip_start",$pos)) > -1) {
     push @skipStarts,$pos;
     $pos++;
@@ -176,64 +183,61 @@ sub scanText {
     if (( ord($c) >= 0x600) && (ord($c) <= 0x6ff)) {
       $arabicStart = $i;
       $arabicEnd = 0;
-      while (! $arabicEnd ) {
+      my $EOA = 0;
+      while (! $EOA ) {
         $i++;
         if ($i == $max) {
           $arabicEnd = $i;
+          $EOA = 1;
           next;
         }
         $c = substr $text , $i, 1;
-        next if $c =~ /\p{IsSpace}/;
-        next if $c =~ /\p{IsPunct}/;
+        next if $c =~ /\p{IsSpace}/;   # include these so we can get the
+        next if $c =~ /\p{IsPunct}/;   # longest piece of Arabic that makes sense
         next if $c =~ /\n/;
         if (
             (ord($c) < 0x600) ||
             (ord($c) > 0x6ff)
            ) {
+          $EOA = 1;
           $arabicEnd = $i - 1;
         }
       }
-#      print STDERR "$arabicStart $arabicEnd\n";
       # move back to last Arabic character so we don't include trailing
-      # punctuation
-      for (my $j=$arabicEnd;$j > $arabicStart;$j--) {
+      # punctuation and spaces which we skipped over in the above code
+      for (my $j=$arabicEnd;$j >= $arabicStart;$j--) {
         $c = substr $text , $j, 1;
         if (( ord($c) >= 0x600) && (ord($c) <= 0x6ff)) {
           $arabicEnd = $j;
           $j = -1;
         }
       }
-#      if ($arabicStart == $arabicEnd) {
-#        $arabicEnd++;
-      #      }
-      $arabiclength = ($arabicStart == $arabicEnd ? 1 : $arabicEnd - $arabicStart);
-#      print STDERR sprintf "[%s]\n", substr $text,$arabicStart,$arabiclength; #$arabicEnd - $arabicStart;
-#      print STDERR sprintf "[%s]\n",substr $text,$arabicStart,1;
+      $arabiclength = ($arabicStart == $arabicEnd ? 1 : $arabicEnd - $arabicStart + 1);
+
+      if ($debug) {
+        print sprintf "Last arabic char [%s]\n",substr $text,$arabicEnd,1;
+        print sprintf "Arabic text:[%s]\n",substr $text,$arabicStart,$arabicEnd - $arabicStart + 1;
+      }
+
+
       # from arabic start read back to ensure
       # we don't have <span class="xxx"> immediately preceding it
-      my $x = substr $text,0,$arabicStart;# - 1;
-#      print STDERR "$arabicStart $arabicEnd $arabiclength\n";
-#      print STDERR "[$x]\n";
-#      if ($x =~ /<span\s*[^>]*>\s*$/) {
+      my $x = substr $text,0,$arabicStart;
+
       if ($x =~ /<span\s*class="arabic">/) {
-#      if (0) {
-        $out .= substr $text, $arabicStart,$arabicEnd - $arabicStart;
+        $out .= substr $text, $arabicStart,$arabiclength;#
       } else {
         $out .= "<span class=\"arabic\">";
-        $out .= substr $text, $arabicStart,$arabiclength;#arabicEnd - $arabicStart;
+        $out .= substr $text, $arabicStart,$arabiclength;
         $out .= "</span>";
         $spansAdded++;
-        #    print sprintf "%d %d\n",$arabicStart,$arabicEnd;
-        #    print sprintf "%04x %d\n",ord($c),ord($c) . "\n";
-        #    print substr $text , $arabicStart, $arabicEnd - $arabicEnd;
       }
       $i = $arabicEnd;
     } else {
       $out .= $c;
     }
   }
-  print STDERR "\nadded $spansAdded span tags\n" if $verbose;
-  return $out;
+  return ($spansAdded,$out);
 }
 GetOptions("in=s" => \$infile,
            "out=s" => \$outfile,
@@ -242,34 +246,35 @@ GetOptions("in=s" => \$infile,
            "class=s" => \$arClass,
            "test" => \$testmode,
            "verbose" => \$verbose,
+           "debug" => \$debug,
            "safe" => \$safemode);
 
 if ($testmode) {
-  my $text = "one two وَ أَنتَ (this is for you)";
-  print scanText($text);
-  print "\n";
-  $text = "one two <span class=\"arabic\"> وَ أَنتَ </span> oh well";
-  print scanText($text);
-  print "\n";
+  my $ln = length("<span class=\"arabic\"></span>");
+  my @tests;
+  push @tests," هُوَ ";
+  push @tests," من ";
+  push @tests,"من";
+  push @tests,"<td>من</td>";
+  push @tests,"one two وَ أَنتَ (followed by punctuation)";
+  push @tests,"one two وَ أَنتَ،هِي (Arabic text with punctuation)";
+  push @tests, "one two <span class=\"arabic\"> وَ أَنتَ </span> Arabic already wrapped";
+  push @tests,"one two <span dir=\"rtl\"> وَ أَنتَ </span> embedded within a spanl";
+  push @tests,"one skip_start two وَ أَنتَ what the skip_end heck";
+  push @tests,"a ح b single character";
+  push @tests,"      <td class=\"lang striped\"  align=\"center\" valign=\"middle\">ل</td>";
 
-  $text = "one two <span dir=\"rtl\"> وَ أَنتَ </span> oh wellf";
-  print scanText($text);
-  print "\n";
-  $text = "one skip_start two وَ أَنتَ what the skip_end heck";
-  print "\n";
-  print scanText($text);
-
-  print "\n";
-
- $text = "a ح b";
-  print scanText($text);
-  print "\n";
-
-  $text = "      <td class=\"lang striped\"  align=\"center\" valign=\"middle\">ل</td>";
-
-  print scanText($text);
-  print "\n";
-
+  foreach my $text (@tests) {
+    my ($count,$out) = scanText($text);
+    my $added = length($out) - length($text);
+    print sprintf "Spans added : %d, added %d characters\n",$count,$added;
+    print "Text in     : [$text]\n";
+    print "Text out    : [$out]\n";
+    if (($added % $ln) != 0) {
+      print "****ERROR****\n";
+    }
+    print "--------------------------------------------------------------\n";
+  }
 
 
 

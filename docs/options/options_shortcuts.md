@@ -38,7 +38,7 @@ To set a shortcut, click on the item and press the required keys.
 | | Word  |   Ctrl+S,W |  |
 | | Page  |   Ctrl+S,P |  |
 | | Node  |   Ctrl+S,N |  |
-|  Local search | | | |Search the current page |
+|  Local search  | | |Search the current page |
 | | Find      | Ctrl+L,F | |
 | | Find next | Ctrl+L,F | |
 | | Show      | Ctrl+L,S | Show last search results |
