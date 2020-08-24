@@ -264,7 +264,7 @@ The following tables will, I believe, supply all further explanations that will 
 <td class="pb"><span dir=ltr>1.</span></td><td>(1st variety) <span dir=rtl>فَعَلَ </span><span dir=ltr>,</span><span dir=rtl> يَفْعُلُ</span><span dir=ltr>:(2nd) </span><span dir=rtl>فَعَلَ</span><span dir=ltr>,</span><span dir=rtl>يَفْعِلُ</span><span dir=ltr> : (3rd) </span><span dir=rtl>فَعَلَ</span><span dir=ltr> , </span><span dir=rtl>يَفْعَلُ</span><span dir=ltr> : (4th)  </span><span dir=rtl>فَعِلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعَلُ</span><span dir=ltr>: (5th) </span><span dir=rtl>فَعُلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعُلُ</span><span dir=ltr>: (6th) </span><span dir=rtl>فَعِلَ</span><span dir=ltr>, </span><span dir=rtl>يَفْعِلُ</span><span dir=ltr>.</span></td>
 </tr>
 <tr>
-<td class="pb"><span dir=ltr>2. </span></td><td><span dir=rtl>فعَّلَ</span><span dir=ltr>: variations </span><span dir=rtl>فَعَّى</span><span dir=ltr> (for </span><span dir=rtl>فَعَّصَ</span><span dir=ltr>) and the like.</span></td>
+<td class="pb"><span dir=ltr>2. </span></td><td><span dir=rtl>فعَّلَ</span><span dir=ltr>: variations </span><span dir=rtl>قَصَّى</span><span dir=ltr> (for </span><span dir=rtl>فَعَّصَ</span><span dir=ltr>) and the like.</span></td>
 </tr>
 
 <tr>
@@ -373,7 +373,7 @@ The following tables will, I believe, supply all further explanations that will 
 </td>
 <td>
 <span dir="ltr">Q. 3.</span>
-<span dir="rtl">اِفْعْنْلَلَ</span>
+<span dir="rtl">اِفْعَنْلَلَ</span>
 <span dir="ltr">.</span>
 </td>
 <td>
@@ -401,7 +401,7 @@ The following tables will, I believe, supply all further explanations that will 
 </tr>
 <tr>
 <td>R.&nbsp;Q.&nbsp;4.</td>
-<td>Verbs of the class ofاِبْتَضَضَّ<span dir="ltr">, </span>mentioned above, (see 9) as variations of اِفْعلَّ<span dir="ltr">,</span> may be classed under this head.
+<td>Verbs of the class of اِبْيَضَضَّ<span dir="ltr">, </span>mentioned above, (see 9) as variations of اِفْعلَّ<span dir="ltr">,</span> may be classed under this head.
 </tr>
 
 </table>
@@ -418,12 +418,12 @@ The following tables will, I believe, supply all further explanations that will 
 <span dir="rtl">;فَعْلَمَ</span>
 <span dir="ltr">(as </span> عَلْوَنَ according to some, and عَشْرَنَ<span dir="ltr">); </span>
 <span dir="rtl">فَعْلَى</span><span dir="ltr">: </span>
-<span dir="rtl">فَعْأالَ</span><span dir="ltr">; </span>
+<span dir="rtl">فَعْألَ</span><span dir="ltr">; </span>
 <span dir="rtl">فَعْمَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">فَعْنَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">فَعْهَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">فَعْوَلَ</span><span dir="ltr">; </span>
-<span dir="rtl">فَْٰيَلَ</span><span dir="ltr">; </span>
+<span dir="rtl">فَعْيَلَ</span><span dir="ltr">; </span>
 
 <span dir="rtl">فَأْعَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">فَتْعَلَ</span><span dir="ltr">; </span>
@@ -444,7 +444,7 @@ The following tables will, I believe, supply all further explanations that will 
 <td>Q.&nbsp;Q.&nbsp;2.</td>
 <td>
 <span dir="rtl">تَفَعْلَتَ</span><span dir="ltr">; </span>
-<span dir="rtl">تَفَعْلى</span><span dir="ltr">; </span>
+<span dir="rtl">تَفَعْلَى</span><span dir="ltr">; </span>
 <span dir="rtl">تَفَعْنَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">تَفَعْوَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">تَفَعْيَلَ</span><span dir="ltr">; </span>
@@ -457,8 +457,8 @@ The following tables will, I believe, supply all further explanations that will 
 <tr>
 <td>Q.&nbsp;Q.&nbsp;3.</td>
 <td>
-<span dir="rtl">اِفْعَنَلأَ</span><span dir="ltr">; </span>
-<span dir="rtl">اِفْعْنْلَى</span><span dir="ltr">; </span>
+<span dir="rtl">اِفْعَنْلَأَ</span><span dir="ltr">; </span>
+<span dir="rtl">اِفْعَنْلَى</span><span dir="ltr">; </span>
 <span dir="rtl">اِفْعَأْلَلَ</span><span dir="ltr">; </span>
 <span dir="rtl">اِفْعَلَّلَ</span><span dir="ltr">; </span>
 <span dir="rtl">اِفْعَوْلَلَ</span><span dir="ltr">; </span>
@@ -476,7 +476,7 @@ The following tables will, I believe, supply all further explanations that will 
 <span dir="rtl">اِفْلَعَلَّ</span><span dir="ltr">; </span>
 <span dir="rtl">اِفْمَعَلَّ</span><span dir="ltr">; </span>
 <span dir="rtl">اِفْوَعَلَّ</span><span dir="ltr">; </span>
-<span dir="rtl">اِنْفْعَلَّ</span><span dir="ltr">.</span>
+<span dir="rtl">اِنْفَعَلَّ</span><span dir="ltr">.</span>
 
 </td>
 </tr>
